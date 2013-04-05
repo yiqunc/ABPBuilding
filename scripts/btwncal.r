@@ -1,63 +1,109 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Description: this code snippet is developed to construct a multi-floor space network and then analyze, visualize the betweenness of the vertices. 
+# Version: 0.1
+# Last Updated: 5-April-2013
+# Supervised by: Martin Tomko     tomkom@unimelb.edu.au
+# Created by: Yiqun(Benny) Chen     chen1@unimelb.edu.au
+#
+# Read Me:
+# (1) The code is only tested on Mac (10.8.2).
+# (2) rlg pacakge is requred, which needs XQuartz library for 3D visualization.
+# (3) change the working directory properly to run on your machine.
+# (4) 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+# required packages
+
 library(igraph);
 library(utils);
 library(rgl);
 library(Matrix);
 
+# setup R working directory 
 setwd("/Users/yiqunc/UniProjects/ABPBuilding")
 
+# set data directory path
+dataPath <- "./data/OldABPBuilding/120601_enrichedAxial"
+
+# floor fullname vector, for loading individual floor plan (.net)
 floorNames <- c("Ground", "FirstFloor", "SecondFloor", "ThirdFloor", "FourthFloor", "FifthFloor", "SixthFloor", "SeventhFloor")
 
+# floor shortname vector, for displaying in 3D scene. 
 floorShortNames <- c("ground", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th")
 
+# a list to contain graph objects for each floor
 floors <- list()
 
+# constants declaration
+# edge default weight
 CONST_EDGE_WEIGHT_DEFAULT = 1.0
+# edge penalty weight
 CONST_EDGE_WEIGHT_HUGE = 1000.0
+# floor text height interval in 3D scene
 CONST_FLOOR_TEXT_HEIGHT_RATIO = 2/(length(floorNames)-1)
 
-
-# load .net network data
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 1: construct a multi-floor network based on individual floor plans
+# load individual .net network data, all network will be unioned by vertex name. assign a proper name for every vertex.
 for(i in 1:length(floorNames)){
-  floors[[i]] <- read.graph(file=sprintf("./data/OldABPBuilding/120601_enrichedAxial/0%i_%s/FABP_0%i.net",i-1,floorNames[i],i-1), format="pajek")
+  floors[[i]] <- read.graph(file=sprintf("%s/0%i_%s/FABP_0%i.net", dataPath, i-1,floorNames[i],i-1), format="pajek")
   V(floors[[i]])$name <-paste(sprintf("0%i_",i-1), as.integer(V(floors[[i]])$id)+1, sep="")
 }
 
-# build a bridge to connect adjacent floors
-bridgeDF = read.table(file="./data/OldABPBuilding/120601_enrichedAxial/bridgeIdx.txt",header=TRUE,sep=",")
-bridgeEdgeSeq = c()
-bridgeVertexName = c()
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 2: Build a bridge to connect floors
+# In the original ".net" files, there is no connection between each floor, A "bridgeIdx.txt" file is built to link them all together, the structure is:
+# FN,SA1,SA2,L1,L2,SB1,SB2
+# "00",11,12,14,13,5,3
+# "01",21,20,1,0,84,83
+# "02",8,18,1,0,32,-1
+# "03",4,6,1,0,30,-1
+# "04",6,4,1,0,13,-1
+# "05",40,38,1,0,-1,-1
+# "06",1,6,-1,-1,-1,-1
+# "07",2,6,-1,-1,-1,-1
+# Where FN stands for "floor name"; SA1,SA2,SB1,SB2 are four marked stairs on the "BuildingBinder.pdf" file: L1, L2 are lifts. They are all joints. 
+# The number refers to the original vertex index in each floor's ".net" file: 
+# E.g, 11 stands for the "SA1" vertex index in "00" .net file. 
+# -1 means the joint does not exist on that floor. E.g. SB2 is not shown on "02" floor.
+# Ideally, existing joints in the same position of each floor should connect vertically. E.g. for SA1, 11-21-8-4-6-40-1-2 forms a continous edge; for SB2, 3-83 forms a continous edge.
+# The bridge graph is created for the ideal scenario, and When exception exists, the "brokenedge" will handle it.  
+
+# load the bridge data.
+bridgeDF <- read.table(file=sprintf("%s/bridgeIdx.txt", dataPath),header=TRUE,sep=",")
+bridgeEdgeSeq <- c()
+bridgeVertexName <- c()
 bridgeVertexCounter = 1
 for(j in 2:ncol(bridgeDF)){
-  vtmp =c()
+  vtmp <- c()
   for(i in 1:nrow(bridgeDF)){
     if(bridgeDF[i,j] > -1){
-      vtmp = c(vtmp,bridgeVertexCounter)
+      vtmp <- c(vtmp,bridgeVertexCounter)
       bridgeVertexName = c(bridgeVertexName, sprintf("0%i_%i",bridgeDF[i,1],bridgeDF[i,j]+1))
-      #print(sprintf("[%i]:%i",bridgeVertexCounter,bridgeDF[i,j]))
       bridgeVertexCounter = bridgeVertexCounter +1
-      vtmp = c(vtmp,bridgeVertexCounter)
+      vtmp <- c(vtmp,bridgeVertexCounter)
     }
   }
   if (length(vtmp)>2){
-    vtmp = vtmp[1:(length(vtmp)-2)]
+    vtmp <- vtmp[1:(length(vtmp)-2)]
   }
-  #print(vtmp)
-  bridgeEdgeSeq = c(bridgeEdgeSeq, vtmp)
+  bridgeEdgeSeq <- c(bridgeEdgeSeq, vtmp)
 }
-gbridge = graph(bridgeEdgeSeq, directed=FALSE)
-V(gbridge)$name = bridgeVertexName
-#gbridge = graph(c(1,2,2,3,3,4,4,5,5,6,7,8,8,9,9,10,10,11,11,12),directed=FALSE)
-#V(gbridge)$name = c("00_15","01_2","02_2","03_2","04_2","05_2", "00_14","01_1","02_1","03_1","04_1","05_1")
 
+# create a graph for the bridge
+gbridge <- graph(bridgeEdgeSeq, directed=FALSE)
+V(gbridge)$name <- bridgeVertexName
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 3: create the entire multi-floor network
 # init gunion
-gunion = graph.union.by.name(floors[[1]], floors[[2]])
-
+gunion <- graph.union.by.name(floors[[1]], floors[[2]])
 # merge floors
 for (fidx in 3:length(floors)){
-  gunion = graph.union.by.name(gunion, floors[[fidx]])
+  gunion <- graph.union.by.name(gunion, floors[[fidx]])
 }
-# merge bridge
-gunion = graph.union.by.name(gunion, gbridge)
+# merge with bridge
+gunion <- graph.union.by.name(gunion, gbridge)
 
 # copy coords (x,y,z) from original graph based on name
 for(i in 1:length(V(gunion)$name)){
@@ -79,30 +125,16 @@ V(gunion)$btwn = -1
 E(gunion)$weight = CONST_EDGE_WEIGHT_DEFAULT
 
 # back up new network before modification
-gunion_original = gunion
+gunion_original <- gunion
 
-# have a chance to modify the new network before caculation.
-# brokenVerticeNames: a broken vertices vector, its connected edges index will be copied to brokenEdgesIdx.
-# brokenEdgesSeq: a broken edge sequences vector, corresponding edge index will be copied to brokenEdgesIdx.
-# brokenEdgesIdx: a broken edge index vector, which is used to create new network
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 4: use brokenedge and brokenvertice to modify network.
 
-brokenEdgesIdx = c()
-
-# (1) define a broken vertices vector, all edges connected to these vertices will get a HUGE weight
-brokenVerticeNames = c()
-#if(length(brokenVerticeNames)>0){
-#  for(vname in brokenVerticeNames){
-    #E(gunion)[gunion[[vname,edges=TRUE]][[1]]]$weight = CONST_EDGE_WEIGHT_HUGE
-#  }
-#}
-# (2) define a broken edges vector. all edges in this vector will get a HUGE weight
-brokenEdgesSeq = c()
-#for(i in 1:(length(brokenEdgesSeq)/2)){
-#  edgeIdx = gunion[brokenEdgesSeq[(i-1)*2+1], brokenEdgesSeq[(i-1)*2+2], edges=TRUE]
-#  if(edgeIdx > 0){
-    #E(gunion)[edgeIdx]$weight = CONST_EDGE_WEIGHT_HUGE
-#  }
-#}
+brokenVerticeNames <- read.table(file=sprintf("%s/brokenvertices.txt", dataPath),header=TRUE,sep=",")
+brokenEdgesSeq <- read.table(file=sprintf("%s/brokenvertices.txt", dataPath),header=TRUE,sep=",")
+brokenVerticeNames <- c()
+brokenEdgesSeq <- c()
+brokenEdgesIdx <- c()
 
 if(length(brokenEdgesSeq) > 0){
   for(i in 1:(length(brokenEdgesSeq)/2)){
@@ -119,7 +151,7 @@ if(length(brokenVerticeNames) > 0){
   }
 }
 
-brokenEdgesIdx = brokenEdgesIdx[!duplicated(brokenEdgesIdx)]
+brokenEdgesIdx <- brokenEdgesIdx[!duplicated(brokenEdgesIdx)]
 
 # (3) remove brokenEdges from network
 #gunion = delete.edges(gunion,E(gunion, P=brokenEdges))
@@ -132,18 +164,25 @@ if(length(brokenVerticeNames) > 0){
   gunion = delete.vertices(gunion, brokenVerticeNames)
 }
 
-# calc the betweeness for vertex
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 4: calc the betweeness for vertex
 V(gunion)$btwn=betweenness(gunion, directed=FALSE, normalized=TRUE)
 
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 5: save gunion as the final result
+write.graph(gunion,file="./outputs/gunion.xml",format="graphml")
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# Step 6: for visualization
 # copy betweeness to the original network
 for(vname in V(gunion)$name){
     if(vname %in% V(gunion_original)$name){
       V(gunion_original)[vname]$btwn = V(gunion)[vname]$btwn
   }
 }
-
-# save gunion as the final result
-write.graph(gunion,file="./outputs/gunion.xml",format="graphml")
 
 # use gunion_original for visualization test 
 V(gunion_original)[btwn>0.1]$color = "red"
@@ -163,10 +202,8 @@ if(length(brokenEdgesIdx) > 0){
 # plot 2D network
 #plot.igraph(gunion_original,vertex.color=V(gunion_original)$color,vertex.label=NA,vertex.size=3)
 
-
 mat = do.call(cbind, list(V(gunion_original)$x, V(gunion_original)$y, V(gunion_original)$z))
 # plot 3D network
-#rglplot(gunion_original,vertex.color=V(gunion_original)$color,vertex.label=NA,vertex.size=3,layout=mat)
 rglplot(gunion_original,vertex.label=NA,layout=mat)
 rgl.viewpoint(0,-90);
 
@@ -175,6 +212,7 @@ for(i in 1:length(floorShortNames)){
   rgl.texts(x=-1.2, y=-1.2, z=-1+(i-1)*CONST_FLOOR_TEXT_HEIGHT_RATIO, text=floorShortNames[i])
 }
 
+# auto rotate the 3D network for video recording
 #start <- proc.time()[3]
 #while ((i <- 36*(proc.time()[3]-start)) < 3360) {
 #  rgl.viewpoint(i/20,i/30); 
