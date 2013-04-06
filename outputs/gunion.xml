@@ -16,49 +16,49 @@
       <data key="v_x">0.404554</data>
       <data key="v_y">0.5</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.126336</data>
+      <data key="v_btwn">0.128833</data>
     </node>
     <node id="n1">
       <data key="v_name">00_10</data>
       <data key="v_x">0.204942</data>
       <data key="v_y">0.648013</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0227476</data>
+      <data key="v_btwn">0.0231212</data>
     </node>
     <node id="n2">
       <data key="v_name">00_11</data>
       <data key="v_x">0.204942</data>
       <data key="v_y">0.361385</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0217255</data>
+      <data key="v_btwn">0.0220706</data>
     </node>
     <node id="n3">
       <data key="v_name">00_12</data>
       <data key="v_x">0.314923</data>
       <data key="v_y">0.368217</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0156993</data>
+      <data key="v_btwn">0.0164879</data>
     </node>
     <node id="n4">
       <data key="v_name">00_13</data>
       <data key="v_x">0.312985</data>
       <data key="v_y">0.641957</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0168545</data>
+      <data key="v_btwn">0.0176715</data>
     </node>
     <node id="n5">
       <data key="v_name">00_14</data>
       <data key="v_x">0.366279</data>
       <data key="v_y">0.526648</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0399661</data>
+      <data key="v_btwn">0.0486629</data>
     </node>
     <node id="n6">
       <data key="v_name">00_15</data>
       <data key="v_x">0.36531</data>
       <data key="v_y">0.481105</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0399661</data>
+      <data key="v_btwn">0.0486629</data>
     </node>
     <node id="n7">
       <data key="v_name">00_16</data>
@@ -226,7 +226,7 @@
       <data key="v_x">0.45688</data>
       <data key="v_y">0.429748</data>
       <data key="v_z">0</data>
-      <data key="v_btwn">0.0185347</data>
+      <data key="v_btwn">0.0028923</data>
     </node>
     <node id="n31">
       <data key="v_name">00_7</data>
@@ -254,7 +254,7 @@
       <data key="v_x">0.290952</data>
       <data key="v_y">0.525712</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.138052</data>
+      <data key="v_btwn">0.161587</data>
     </node>
     <node id="n35">
       <data key="v_name">01_10</data>
@@ -324,35 +324,35 @@
       <data key="v_x">0.255382</data>
       <data key="v_y">0.332192</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0365879</data>
+      <data key="v_btwn">0.0371617</data>
     </node>
     <node id="n45">
       <data key="v_name">01_2</data>
       <data key="v_x">0.290076</data>
       <data key="v_y">0.475995</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.138052</data>
+      <data key="v_btwn">0.161587</data>
     </node>
     <node id="n46">
       <data key="v_name">01_20</data>
       <data key="v_x">0.255382</data>
       <data key="v_y">0.66683</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0396579</data>
+      <data key="v_btwn">0.0402696</data>
     </node>
     <node id="n47">
       <data key="v_name">01_21</data>
       <data key="v_x">0.252446</data>
       <data key="v_y">0.648239</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0656016</data>
+      <data key="v_btwn">0.0670568</data>
     </node>
     <node id="n48">
       <data key="v_name">01_22</data>
       <data key="v_x">0.258317</data>
       <data key="v_y">0.348826</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0612989</data>
+      <data key="v_btwn">0.0626877</data>
     </node>
     <node id="n49">
       <data key="v_name">01_23</data>
@@ -408,7 +408,7 @@
       <data key="v_x">0.321918</data>
       <data key="v_y">0.503425</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.318943</data>
+      <data key="v_btwn">0.347271</data>
     </node>
     <node id="n57">
       <data key="v_name">01_30</data>
@@ -499,7 +499,7 @@
       <data key="v_x">0.548924</data>
       <data key="v_y">0.500489</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0741896</data>
+      <data key="v_btwn">0.074744</data>
     </node>
     <node id="n70">
       <data key="v_name">01_42</data>
@@ -828,14 +828,14 @@
       <data key="v_x">0.472603</data>
       <data key="v_y">0.541096</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0039201</data>
+      <data key="v_btwn">0.00349987</data>
     </node>
     <node id="n117">
       <data key="v_name">01_85</data>
       <data key="v_x">0.488258</data>
       <data key="v_y">0.462329</data>
       <data key="v_z">1</data>
-      <data key="v_btwn">0.0499327</data>
+      <data key="v_btwn">0.00349987</data>
     </node>
     <node id="n118">
       <data key="v_name">01_86</data>
@@ -884,7 +884,7 @@
       <data key="v_x">0.289829</data>
       <data key="v_y">0.526421</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.174438</data>
+      <data key="v_btwn">0.197654</data>
     </node>
     <node id="n125">
       <data key="v_name">02_10</data>
@@ -947,21 +947,21 @@
       <data key="v_x">0.241808</data>
       <data key="v_y">0.671692</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.0297025</data>
+      <data key="v_btwn">0.029639</data>
     </node>
     <node id="n134">
       <data key="v_name">02_19</data>
       <data key="v_x">0.250328</data>
       <data key="v_y">0.647773</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.0928757</data>
+      <data key="v_btwn">0.0940479</data>
     </node>
     <node id="n135">
       <data key="v_name">02_2</data>
       <data key="v_x">0.290915</data>
       <data key="v_y">0.476477</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.174438</data>
+      <data key="v_btwn">0.197654</data>
     </node>
     <node id="n136">
       <data key="v_name">02_20</data>
@@ -1038,7 +1038,7 @@
       <data key="v_x">0.320445</data>
       <data key="v_y">0.500656</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.259548</data>
+      <data key="v_btwn">0.260807</data>
     </node>
     <node id="n147">
       <data key="v_name">02_30</data>
@@ -1066,7 +1066,7 @@
       <data key="v_x">0.403014</data>
       <data key="v_y">0.476083</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.0668683</data>
+      <data key="v_btwn">0.0195917</data>
     </node>
     <node id="n151">
       <data key="v_name">02_34</data>
@@ -1339,21 +1339,21 @@
       <data key="v_x">0.24443</data>
       <data key="v_y">0.332242</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.0274522</data>
+      <data key="v_btwn">0.0274109</data>
     </node>
     <node id="n190">
       <data key="v_name">02_9</data>
       <data key="v_x">0.249017</data>
       <data key="v_y">0.351246</data>
       <data key="v_z">2</data>
-      <data key="v_btwn">0.0861965</data>
+      <data key="v_btwn">0.0873244</data>
     </node>
     <node id="n191">
       <data key="v_name">03_1</data>
       <data key="v_x">0.295919</data>
       <data key="v_y">0.527529</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.171401</data>
+      <data key="v_btwn">0.183687</data>
     </node>
     <node id="n192">
       <data key="v_name">03_10</data>
@@ -1430,7 +1430,7 @@
       <data key="v_x">0.297117</data>
       <data key="v_y">0.476952</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.171401</data>
+      <data key="v_btwn">0.183687</data>
     </node>
     <node id="n203">
       <data key="v_name">03_20</data>
@@ -1507,7 +1507,7 @@
       <data key="v_x">0.311278</data>
       <data key="v_y">0.494732</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.221825</data>
+      <data key="v_btwn">0.221793</data>
     </node>
     <node id="n214">
       <data key="v_name">03_30</data>
@@ -1521,7 +1521,7 @@
       <data key="v_x">0.364508</data>
       <data key="v_y">0.471603</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.0511103</data>
+      <data key="v_btwn">0.0254699</data>
     </node>
     <node id="n216">
       <data key="v_name">03_32</data>
@@ -1584,7 +1584,7 @@
       <data key="v_x">0.23999</data>
       <data key="v_y">0.332827</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.0239129</data>
+      <data key="v_btwn">0.0238768</data>
     </node>
     <node id="n225">
       <data key="v_name">03_40</data>
@@ -1661,7 +1661,7 @@
       <data key="v_x">0.252346</data>
       <data key="v_y">0.351837</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.0985826</data>
+      <data key="v_btwn">0.0991885</data>
     </node>
     <node id="n236">
       <data key="v_name">03_50</data>
@@ -1731,14 +1731,14 @@
       <data key="v_x">0.236187</data>
       <data key="v_y">0.667411</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.0258658</data>
+      <data key="v_btwn">0.0258075</data>
     </node>
     <node id="n246">
       <data key="v_name">03_7</data>
       <data key="v_x">0.250446</data>
       <data key="v_y">0.64745</data>
       <data key="v_z">3</data>
-      <data key="v_btwn">0.107399</data>
+      <data key="v_btwn">0.108027</data>
     </node>
     <node id="n247">
       <data key="v_name">03_8</data>
@@ -1759,7 +1759,7 @@
       <data key="v_x">0.273326</data>
       <data key="v_y">0.479582</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.141444</data>
+      <data key="v_btwn">0.144979</data>
     </node>
     <node id="n250">
       <data key="v_name">04_10</data>
@@ -1794,7 +1794,7 @@
       <data key="v_x">0.3585</data>
       <data key="v_y">0.435764</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.0189145</data>
+      <data key="v_btwn">0.0110414</data>
     </node>
     <node id="n255">
       <data key="v_name">04_15</data>
@@ -1836,7 +1836,7 @@
       <data key="v_x">0.274535</data>
       <data key="v_y">0.428486</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.141444</data>
+      <data key="v_btwn">0.144979</data>
     </node>
     <node id="n261">
       <data key="v_name">04_20</data>
@@ -1913,7 +1913,7 @@
       <data key="v_x">0.295759</data>
       <data key="v_y">0.422533</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.10213</data>
+      <data key="v_btwn">0.101464</data>
     </node>
     <node id="n272">
       <data key="v_name">04_30</data>
@@ -1927,28 +1927,28 @@
       <data key="v_x">0.229176</data>
       <data key="v_y">0.631245</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.0129192</data>
+      <data key="v_btwn">0.0127935</data>
     </node>
     <node id="n274">
       <data key="v_name">04_5</data>
       <data key="v_x">0.241127</data>
       <data key="v_y">0.609478</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.105982</data>
+      <data key="v_btwn">0.106149</data>
     </node>
     <node id="n275">
       <data key="v_name">04_6</data>
       <data key="v_x">0.226615</data>
       <data key="v_y">0.28638</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.0119536</data>
+      <data key="v_btwn">0.0118501</data>
     </node>
     <node id="n276">
       <data key="v_name">04_7</data>
       <data key="v_x">0.24198</data>
       <data key="v_y">0.307721</data>
       <data key="v_z">4</data>
-      <data key="v_btwn">0.0959447</data>
+      <data key="v_btwn">0.096112</data>
     </node>
     <node id="n277">
       <data key="v_name">04_8</data>
@@ -4110,9 +4110,6 @@
       <data key="e_weight">1</data>
     </edge>
     <edge source="n30" target="n117">
-      <data key="e_weight">1</data>
-    </edge>
-    <edge source="n117" target="n150">
       <data key="e_weight">1</data>
     </edge>
     <edge source="n150" target="n215">

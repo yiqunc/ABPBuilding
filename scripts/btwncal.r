@@ -1,7 +1,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Description: this code snippet is developed to construct a multi-floor space network and then analyze, visualize the betweenness of the vertices. 
 # Version: 0.1
-# Last Updated: 5-April-2013
+# Last Updated: 6-April-2013
 # Supervised by: Martin Tomko     tomkom@unimelb.edu.au
 # Created by: Yiqun(Benny) Chen     chen1@unimelb.edu.au
 #
@@ -9,7 +9,6 @@
 # (1) The code is only tested on Mac (10.8.2).
 # (2) rlg pacakge is requred, which needs XQuartz library for 3D visualization.
 # (3) change the working directory properly to run on your machine.
-# (4) 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 # required packages
@@ -130,44 +129,63 @@ gunion_original <- gunion
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Step 4: use brokenedge and brokenvertice to modify network.
 
-brokenVerticeNames <- read.table(file=sprintf("%s/brokenvertices.txt", dataPath),header=TRUE,sep=",")
-brokenEdgesSeq <- read.table(file=sprintf("%s/brokenvertices.txt", dataPath),header=TRUE,sep=",")
-brokenVerticeNames <- c()
-brokenEdgesSeq <- c()
+brokenVerticesDF <- read.table(file=sprintf("%s/brokenvertices.txt", dataPath),header=TRUE,sep=",")
+brokenEdgesDF <- read.table(file=sprintf("%s/brokenedges.txt", dataPath),header=TRUE,sep=",")
+
 brokenEdgesIdx <- c()
 
-if(length(brokenEdgesSeq) > 0){
-  for(i in 1:(length(brokenEdgesSeq)/2)){
-    edgeIdx = gunion[brokenEdgesSeq[(i-1)*2+1], brokenEdgesSeq[(i-1)*2+2], edges=TRUE]
-    if(edgeIdx > 0){
-      brokenEdgesIdx = c(brokenEdgesIdx,edgeIdx)
+# find broken edge indices
+if(nrow(brokenEdgesDF) > 0){
+  # check if vertex1 names are valid in network
+  filterV1 = brokenEdgesDF[,1] %in% V(gunion)$name
+  # check if vertex2 names are valid in network
+  filterV2 = brokenEdgesDF[,2] %in% V(gunion)$name
+  # v1 v2 both must be valid
+  filter = filterV1 & filterV2
+  # remove those invalid ones
+  brokenEdgesDF <- subset(brokenEdgesDF,filter)
+  
+  if(nrow(brokenEdgesDF) > 0){
+    for(i in 1:nrow(brokenEdgesDF)){
+      edgeIdx = gunion[as.character(brokenEdgesDF[i,1]), as.character(brokenEdgesDF[i,2]), edges=TRUE]
+      # check if broken edge exists in current network
+      if(edgeIdx > 0){
+        brokenEdgesIdx <- c(brokenEdgesIdx, edgeIdx)
+      }
     }
   }
 }
 
-if(length(brokenVerticeNames) > 0){
-  for(vname in brokenVerticeNames){
-    brokenEdgesIdx = c(brokenEdgesIdx, gunion[[vname,edges=TRUE]][[1]])
+# find all edge indices which are connected to broken vertices
+if(nrow(brokenVerticesDF) > 0){
+  # test if broken vertices exist in network
+  filter = brokenVerticesDF[,1] %in% V(gunion)$name
+  # remove those invalid ones
+  brokenVerticesDF <- subset(brokenVerticesDF,filter)
+  # then find connected edges to remove
+  if(nrow(brokenVerticesDF) > 0){
+    for(i in 1:nrow(brokenVerticesDF)){
+      brokenEdgesIdx <- c(brokenEdgesIdx, gunion[[as.character(brokenVerticesDF[i,1]),edges=TRUE]][[1]])
+    }
   }
 }
 
+# remove duplicated edge indice before remove them
 brokenEdgesIdx <- brokenEdgesIdx[!duplicated(brokenEdgesIdx)]
 
-# (3) remove brokenEdges from network
-#gunion = delete.edges(gunion,E(gunion, P=brokenEdges))
+# remove brokenEdges from network
 if(length(brokenEdgesIdx) > 0){
-  gunion = delete.edges(gunion,E(gunion)[brokenEdgesIdx])
+  gunion <- delete.edges(gunion,E(gunion)[brokenEdgesIdx])
 }
 
-# (4) remove brokenVerticeNames from network
-if(length(brokenVerticeNames) > 0){
-  gunion = delete.vertices(gunion, brokenVerticeNames)
+# remove brokenVertices from network
+if(nrow(brokenVerticesDF) > 0){
+  gunion <- delete.vertices(gunion, as.character(brokenVerticesDF[,1]))
 }
-
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Step 4: calc the betweeness for vertex
-V(gunion)$btwn=betweenness(gunion, directed=FALSE, normalized=TRUE)
+V(gunion)$btwn <- betweenness(gunion, directed=FALSE, normalized=TRUE)
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -187,9 +205,9 @@ for(vname in V(gunion)$name){
 # use gunion_original for visualization test 
 V(gunion_original)[btwn>0.1]$color = "red"
 V(gunion_original)$size = 3
-if(length(brokenVerticeNames) > 0){
-  V(gunion_original)[brokenVerticeNames]$color = "black"
-  V(gunion_original)[brokenVerticeNames]$size = 5
+if(nrow(brokenVerticesDF) > 0){
+  V(gunion_original)[as.character(brokenVerticesDF[,1])]$color = "black"
+  V(gunion_original)[as.character(brokenVerticesDF[,1])]$size = 5
 }
 
 # have to set a default edge width value for all edges first 
@@ -202,7 +220,7 @@ if(length(brokenEdgesIdx) > 0){
 # plot 2D network
 #plot.igraph(gunion_original,vertex.color=V(gunion_original)$color,vertex.label=NA,vertex.size=3)
 
-mat = do.call(cbind, list(V(gunion_original)$x, V(gunion_original)$y, V(gunion_original)$z))
+mat <- do.call(cbind, list(V(gunion_original)$x, V(gunion_original)$y, V(gunion_original)$z))
 # plot 3D network
 rglplot(gunion_original,vertex.label=NA,layout=mat)
 rgl.viewpoint(0,-90);
