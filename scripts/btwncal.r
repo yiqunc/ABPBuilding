@@ -66,7 +66,7 @@ for(i in 1:length(floorNames)){
 # E.g, 11 stands for the "SA1" vertex index in "00" .net file. 
 # -1 means the joint does not exist on that floor. E.g. SB2 is not shown on "02" floor.
 # Ideally, existing joints in the same position of each floor should connect vertically. E.g. for SA1, 11-21-8-4-6-40-1-2 forms a continous edge; for SB2, 3-83 forms a continous edge.
-# The bridge graph is created for the ideal scenario, and When exception exists, the "brokenedge" will handle it.  
+# The bridge graph is created for the ideal scenario, and When exception exists, the "brokenedge" will handle it.
 
 # load the bridge data.
 bridgeDF <- read.table(file=sprintf("%s/bridgeIdx.txt", dataPath),header=TRUE,sep=",")
@@ -122,6 +122,24 @@ V(gunion)$btwn = -1
 
 # init edge weight
 E(gunion)$weight = CONST_EDGE_WEIGHT_DEFAULT
+
+# load spaceinfo database
+spaceInfoDF <- read.csv(file=sprintf("%s/spaceinfo.txt", dataPath),header=TRUE,sep=",")
+
+# create a unique space index
+spaceInfoDF[,"UNISIDX"]=sprintf("0%i_%i",spaceInfoDF[,"FN"], spaceInfoDF[,"SIDX"]+1)
+
+# attach space info to graph
+for(i in 1:length(V(gunion)$name)){
+  vname = V(gunion)$name[i]
+  if (vname %in% spaceInfoDF[,"UNISIDX"]){
+    filter = vname==spaceInfoDF[,"UNISIDX"]
+    V(gunion)[i]$spacename = as.character(spaceInfoDF[filter,"SN"])
+    V(gunion)[i]$capacity = spaceInfoDF[filter,"CAPACITY"]
+    V(gunion)[i]$accesslevel = spaceInfoDF[filter,"ACCESSLVL"]
+    V(gunion)[i]$owners = as.character(spaceInfoDF[filter,"OWNER"])
+  }
+}
 
 # back up new network before modification
 gunion_original <- gunion

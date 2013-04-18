@@ -9,6 +9,10 @@
   <key id="v_y" for="node" attr.name="y" attr.type="double"/>
   <key id="v_z" for="node" attr.name="z" attr.type="double"/>
   <key id="v_btwn" for="node" attr.name="btwn" attr.type="double"/>
+  <key id="v_spacename" for="node" attr.name="spacename" attr.type="string"/>
+  <key id="v_capacity" for="node" attr.name="capacity" attr.type="double"/>
+  <key id="v_accesslevel" for="node" attr.name="accesslevel" attr.type="double"/>
+  <key id="v_owners" for="node" attr.name="owners" attr.type="string"/>
   <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
   <graph id="G" edgedefault="undirected">
     <node id="n0">
@@ -17,6 +21,10 @@
       <data key="v_y">0.5</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.128833</data>
+      <data key="v_spacename">G42-CORRIDOR</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n1">
       <data key="v_name">00_10</data>
@@ -24,6 +32,10 @@
       <data key="v_y">0.648013</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0231212</data>
+      <data key="v_spacename">G19</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n2">
       <data key="v_name">00_11</data>
@@ -31,6 +43,10 @@
       <data key="v_y">0.361385</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0220706</data>
+      <data key="v_spacename">G15</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n3">
       <data key="v_name">00_12</data>
@@ -38,6 +54,10 @@
       <data key="v_y">0.368217</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0164879</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n4">
       <data key="v_name">00_13</data>
@@ -45,6 +65,10 @@
       <data key="v_y">0.641957</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0176715</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n5">
       <data key="v_name">00_14</data>
@@ -52,6 +76,10 @@
       <data key="v_y">0.526648</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0486629</data>
+      <data key="v_spacename">L2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n6">
       <data key="v_name">00_15</data>
@@ -59,6 +87,10 @@
       <data key="v_y">0.481105</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0486629</data>
+      <data key="v_spacename">L1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n7">
       <data key="v_name">00_16</data>
@@ -66,6 +98,10 @@
       <data key="v_y">0.256298</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G28-WUNDERLICH ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n8">
       <data key="v_name">00_17</data>
@@ -73,6 +109,10 @@
       <data key="v_y">0.207007</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G28-WUNDERLICH ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n9">
       <data key="v_name">00_18</data>
@@ -80,6 +120,10 @@
       <data key="v_y">0.172965</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G24</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n10">
       <data key="v_name">00_19</data>
@@ -87,6 +131,10 @@
       <data key="v_y">0.157461</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G24</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n11">
       <data key="v_name">00_2</data>
@@ -94,6 +142,10 @@
       <data key="v_y">0.422142</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">G19-SISALKRAFT THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n12">
       <data key="v_name">00_20</data>
@@ -101,6 +153,10 @@
       <data key="v_y">0.761143</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G35</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n13">
       <data key="v_name">00_21</data>
@@ -108,6 +164,10 @@
       <data key="v_y">0.731589</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0100249</data>
+      <data key="v_spacename">G22C</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n14">
       <data key="v_name">00_22</data>
@@ -115,6 +175,10 @@
       <data key="v_y">0.751453</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0149994</data>
+      <data key="v_spacename">G22</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n15">
       <data key="v_name">00_23</data>
@@ -122,6 +186,10 @@
       <data key="v_y">0.792151</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G35</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n16">
       <data key="v_name">00_24</data>
@@ -129,6 +197,10 @@
       <data key="v_y">0.773741</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G21</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n17">
       <data key="v_name">00_25</data>
@@ -136,6 +208,10 @@
       <data key="v_y">0.798934</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G32</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n18">
       <data key="v_name">00_26</data>
@@ -143,6 +219,10 @@
       <data key="v_y">0.855136</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G32</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n19">
       <data key="v_name">00_27</data>
@@ -150,6 +230,10 @@
       <data key="v_y">0.484011</data>
       <data key="v_z">0</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">G19-SISALKRAFT THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n20">
       <data key="v_name">00_28</data>
@@ -157,6 +241,10 @@
       <data key="v_y">0.524224</data>
       <data key="v_z">0</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">G19-SISALKRAFT THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n21">
       <data key="v_name">00_29</data>
@@ -164,6 +252,10 @@
       <data key="v_y">0.483043</data>
       <data key="v_z">0</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">G-PRICE PHILIP THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n22">
       <data key="v_name">00_3</data>
@@ -171,6 +263,10 @@
       <data key="v_y">0.588809</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">G19-SISALKRAFT THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n23">
       <data key="v_name">00_30</data>
@@ -178,6 +274,10 @@
       <data key="v_y">0.525678</data>
       <data key="v_z">0</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">G-PRICE PHILIP THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n24">
       <data key="v_name">00_31</data>
@@ -185,6 +285,10 @@
       <data key="v_y">0.326749</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G30-MALE TOLIET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n25">
       <data key="v_name">00_32</data>
@@ -192,6 +296,10 @@
       <data key="v_y">0.295376</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G30-MALE TOLIET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n26">
       <data key="v_name">00_33</data>
@@ -199,6 +307,10 @@
       <data key="v_y">0.682173</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G33-FEMALE TOLIET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n27">
       <data key="v_name">00_34</data>
@@ -206,6 +318,10 @@
       <data key="v_y">0.716307</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">G33-FEMALE TOLIET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n28">
       <data key="v_name">00_4</data>
@@ -213,6 +329,10 @@
       <data key="v_y">0.578972</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0028923</data>
+      <data key="v_spacename">SB2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n29">
       <data key="v_name">00_5</data>
@@ -220,6 +340,10 @@
       <data key="v_y">0.717537</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">G21</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n30">
       <data key="v_name">00_6</data>
@@ -227,6 +351,10 @@
       <data key="v_y">0.429748</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0028923</data>
+      <data key="v_spacename">SB1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n31">
       <data key="v_name">00_7</data>
@@ -234,6 +362,10 @@
       <data key="v_y">0.387113</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">G-UNNAMED_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n32">
       <data key="v_name">00_8</data>
@@ -241,6 +373,10 @@
       <data key="v_y">0.622578</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">G-UNNAMED_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n33">
       <data key="v_name">00_9</data>
@@ -248,6 +384,10 @@
       <data key="v_y">0.657463</data>
       <data key="v_z">0</data>
       <data key="v_btwn">0.0199486</data>
+      <data key="v_spacename">G22</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n34">
       <data key="v_name">01_1</data>
@@ -255,6 +395,10 @@
       <data key="v_y">0.525712</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.161587</data>
+      <data key="v_spacename">L2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n35">
       <data key="v_name">01_10</data>
@@ -262,6 +406,10 @@
       <data key="v_y">0.18591</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">154</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">S. Drake</data>
     </node>
     <node id="n36">
       <data key="v_name">01_11</data>
@@ -269,6 +417,10 @@
       <data key="v_y">0.183953</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">153</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">C. Newton</data>
     </node>
     <node id="n37">
       <data key="v_name">01_12</data>
@@ -276,6 +428,10 @@
       <data key="v_y">0.183953</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">152</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Huston</data>
     </node>
     <node id="n38">
       <data key="v_name">01_13</data>
@@ -283,6 +439,10 @@
       <data key="v_y">0.280333</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00250623</data>
+      <data key="v_spacename">145-Japanese Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n39">
       <data key="v_name">01_14</data>
@@ -290,6 +450,10 @@
       <data key="v_y">0.252935</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00250623</data>
+      <data key="v_spacename">145-Japanese Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n40">
       <data key="v_name">01_15</data>
@@ -297,6 +461,10 @@
       <data key="v_y">0.231409</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">CORRIDOR_5</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n41">
       <data key="v_name">01_16</data>
@@ -304,6 +472,10 @@
       <data key="v_y">0.212329</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">160-PRINT ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n42">
       <data key="v_name">01_17</data>
@@ -311,6 +483,10 @@
       <data key="v_y">0.409491</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">104-eZONE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n43">
       <data key="v_name">01_18</data>
@@ -318,6 +494,10 @@
       <data key="v_y">0.590509</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">103-theatre</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n44">
       <data key="v_name">01_19</data>
@@ -325,6 +505,10 @@
       <data key="v_y">0.332192</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0371617</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n45">
       <data key="v_name">01_2</data>
@@ -332,6 +516,10 @@
       <data key="v_y">0.475995</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.161587</data>
+      <data key="v_spacename">L1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n46">
       <data key="v_name">01_20</data>
@@ -339,6 +527,10 @@
       <data key="v_y">0.66683</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0402696</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n47">
       <data key="v_name">01_21</data>
@@ -346,6 +538,10 @@
       <data key="v_y">0.648239</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0670568</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n48">
       <data key="v_name">01_22</data>
@@ -353,6 +549,10 @@
       <data key="v_y">0.348826</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0626877</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n49">
       <data key="v_name">01_23</data>
@@ -360,6 +560,10 @@
       <data key="v_y">0.798924</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.158684</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n50">
       <data key="v_name">01_24</data>
@@ -367,6 +571,10 @@
       <data key="v_y">0.729941</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0299229</data>
+      <data key="v_spacename">133</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n51">
       <data key="v_name">01_25</data>
@@ -374,6 +582,10 @@
       <data key="v_y">0.791096</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">133B</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Lewis</data>
     </node>
     <node id="n52">
       <data key="v_name">01_26</data>
@@ -381,6 +593,10 @@
       <data key="v_y">0.76272</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">133D</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">G. Brawn</data>
     </node>
     <node id="n53">
       <data key="v_name">01_27</data>
@@ -388,6 +604,10 @@
       <data key="v_y">0.668787</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">133C</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Tombesi</data>
     </node>
     <node id="n54">
       <data key="v_name">01_28</data>
@@ -395,6 +615,10 @@
       <data key="v_y">0.824364</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">133A</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Pieris</data>
     </node>
     <node id="n55">
       <data key="v_name">01_29</data>
@@ -402,6 +626,10 @@
       <data key="v_y">0.817515</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">132</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">R. Reed</data>
     </node>
     <node id="n56">
       <data key="v_name">01_3</data>
@@ -409,6 +637,10 @@
       <data key="v_y">0.503425</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.347271</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n57">
       <data key="v_name">01_30</data>
@@ -416,6 +648,10 @@
       <data key="v_y">0.816536</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">131</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">B. Gardiner</data>
     </node>
     <node id="n58">
       <data key="v_name">01_31</data>
@@ -423,6 +659,10 @@
       <data key="v_y">0.816536</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">130</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">D. O&apos;Brien</data>
     </node>
     <node id="n59">
       <data key="v_name">01_32</data>
@@ -430,6 +670,10 @@
       <data key="v_y">0.817515</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">129</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Zhu</data>
     </node>
     <node id="n60">
       <data key="v_name">01_33</data>
@@ -437,6 +681,10 @@
       <data key="v_y">0.817515</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">128</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">RAP Manager</data>
     </node>
     <node id="n61">
       <data key="v_name">01_34</data>
@@ -444,6 +692,10 @@
       <data key="v_y">0.817515</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">127</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Advancement Director</data>
     </node>
     <node id="n62">
       <data key="v_name">01_35</data>
@@ -451,6 +703,10 @@
       <data key="v_y">0.817515</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">126</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">ML Huppatz</data>
     </node>
     <node id="n63">
       <data key="v_name">01_36</data>
@@ -458,6 +714,10 @@
       <data key="v_y">0.814579</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00250623</data>
+      <data key="v_spacename">125</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">F. Downie</data>
     </node>
     <node id="n64">
       <data key="v_name">01_37</data>
@@ -465,6 +725,10 @@
       <data key="v_y">0.834149</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00250623</data>
+      <data key="v_spacename">124</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">F. Downie</data>
     </node>
     <node id="n65">
       <data key="v_name">01_38</data>
@@ -472,6 +736,10 @@
       <data key="v_y">0.819472</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">123</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Mylonas</data>
     </node>
     <node id="n66">
       <data key="v_name">01_39</data>
@@ -479,6 +747,10 @@
       <data key="v_y">0.825342</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0100249</data>
+      <data key="v_spacename">122</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n67">
       <data key="v_name">01_4</data>
@@ -486,6 +758,10 @@
       <data key="v_y">0.207926</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0979646</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n68">
       <data key="v_name">01_40</data>
@@ -493,6 +769,10 @@
       <data key="v_y">0.779354</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">119</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n69">
       <data key="v_name">01_41</data>
@@ -500,6 +780,10 @@
       <data key="v_y">0.500489</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.074744</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n70">
       <data key="v_name">01_42</data>
@@ -507,6 +791,10 @@
       <data key="v_y">0.61546</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">135-Chinese Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n71">
       <data key="v_name">01_43</data>
@@ -514,6 +802,10 @@
       <data key="v_y">0.588063</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0149994</data>
+      <data key="v_spacename">137-SEMINAR ROOM</data>
+      <data key="v_capacity">36</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n72">
       <data key="v_name">01_44</data>
@@ -521,6 +813,10 @@
       <data key="v_y">0.577299</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">136-Indian Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n73">
       <data key="v_name">01_45</data>
@@ -528,6 +824,10 @@
       <data key="v_y">0.585127</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">137-SEMINAR ROOM</data>
+      <data key="v_capacity">36</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n74">
       <data key="v_name">01_46</data>
@@ -535,6 +835,10 @@
       <data key="v_y">0.422701</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">142-SEMINAR ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n75">
       <data key="v_name">01_47</data>
@@ -542,6 +846,10 @@
       <data key="v_y">0.422701</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">143-SEMINAR ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n76">
       <data key="v_name">01_48</data>
@@ -549,6 +857,10 @@
       <data key="v_y">0.146771</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">159</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">C. Grigg</data>
     </node>
     <node id="n77">
       <data key="v_name">01_49</data>
@@ -556,6 +868,10 @@
       <data key="v_y">0.146282</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">158</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Elaine Castle</data>
     </node>
     <node id="n78">
       <data key="v_name">01_5</data>
@@ -563,6 +879,10 @@
       <data key="v_y">0.186399</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">159</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">C. Grigg</data>
     </node>
     <node id="n79">
       <data key="v_name">01_50</data>
@@ -570,6 +890,10 @@
       <data key="v_y">0.14726</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">157</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">C. O&apos;Meara</data>
     </node>
     <node id="n80">
       <data key="v_name">01_51</data>
@@ -577,6 +901,10 @@
       <data key="v_y">0.146282</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">156</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Trewin</data>
     </node>
     <node id="n81">
       <data key="v_name">01_52</data>
@@ -584,6 +912,10 @@
       <data key="v_y">0.146771</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">155</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">L. Wilks</data>
     </node>
     <node id="n82">
       <data key="v_name">01_53</data>
@@ -591,6 +923,10 @@
       <data key="v_y">0.146282</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">154</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">S. Drake</data>
     </node>
     <node id="n83">
       <data key="v_name">01_54</data>
@@ -598,6 +934,10 @@
       <data key="v_y">0.146771</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">153</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">C. Newton</data>
     </node>
     <node id="n84">
       <data key="v_name">01_55</data>
@@ -605,6 +945,10 @@
       <data key="v_y">0.146282</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">152</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Huston</data>
     </node>
     <node id="n85">
       <data key="v_name">01_56</data>
@@ -612,6 +956,10 @@
       <data key="v_y">0.172211</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">151</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Goad</data>
     </node>
     <node id="n86">
       <data key="v_name">01_57</data>
@@ -619,6 +967,10 @@
       <data key="v_y">0.317025</data>
       <data key="v_z">1</data>
       <data key="v_btwn">6.32887e-06</data>
+      <data key="v_spacename">145-Japanese Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n87">
       <data key="v_name">01_58</data>
@@ -626,6 +978,10 @@
       <data key="v_y">0.162427</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">160-PRINT ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n88">
       <data key="v_name">01_59</data>
@@ -633,6 +989,10 @@
       <data key="v_y">0.210372</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">162-STAFF ROOM</data>
+      <data key="v_capacity">26</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n89">
       <data key="v_name">01_6</data>
@@ -640,6 +1000,10 @@
       <data key="v_y">0.184442</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">158</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Elaine Castle</data>
     </node>
     <node id="n90">
       <data key="v_name">01_60</data>
@@ -647,6 +1011,10 @@
       <data key="v_y">0.307241</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">142-SEMINAR ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n91">
       <data key="v_name">01_61</data>
@@ -654,6 +1022,10 @@
       <data key="v_y">0.30773</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">143-SEMINAR ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n92">
       <data key="v_name">01_62</data>
@@ -661,6 +1033,10 @@
       <data key="v_y">0.69227</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">137-SEMINAR ROOM</data>
+      <data key="v_capacity">36</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n93">
       <data key="v_name">01_63</data>
@@ -668,6 +1044,10 @@
       <data key="v_y">0.696184</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.0100249</data>
+      <data key="v_spacename">137-SEMINAR ROOM</data>
+      <data key="v_capacity">36</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n94">
       <data key="v_name">01_64</data>
@@ -675,6 +1055,10 @@
       <data key="v_y">0.692759</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">136-Indian Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n95">
       <data key="v_name">01_65</data>
@@ -682,6 +1066,10 @@
       <data key="v_y">0.69227</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">135-Chinese Room</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n96">
       <data key="v_name">01_66</data>
@@ -689,6 +1077,10 @@
       <data key="v_y">0.643836</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">133C</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Tombesi</data>
     </node>
     <node id="n97">
       <data key="v_name">01_67</data>
@@ -696,6 +1088,10 @@
       <data key="v_y">0.729941</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">133D</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">G. Brawn</data>
     </node>
     <node id="n98">
       <data key="v_name">01_68</data>
@@ -703,6 +1099,10 @@
       <data key="v_y">0.833659</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">133B</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Lewis</data>
     </node>
     <node id="n99">
       <data key="v_name">01_69</data>
@@ -710,6 +1110,10 @@
       <data key="v_y">0.85225</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">133A</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Pieris</data>
     </node>
     <node id="n100">
       <data key="v_name">01_7</data>
@@ -717,6 +1121,10 @@
       <data key="v_y">0.185421</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">157</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">C. O&apos;Meara</data>
     </node>
     <node id="n101">
       <data key="v_name">01_70</data>
@@ -724,6 +1132,10 @@
       <data key="v_y">0.853229</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">132</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">R. Reed</data>
     </node>
     <node id="n102">
       <data key="v_name">01_71</data>
@@ -731,6 +1143,10 @@
       <data key="v_y">0.853718</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">131</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">B. Gardiner</data>
     </node>
     <node id="n103">
       <data key="v_name">01_72</data>
@@ -738,6 +1154,10 @@
       <data key="v_y">0.853229</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">130</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">D. O&apos;Brien</data>
     </node>
     <node id="n104">
       <data key="v_name">01_73</data>
@@ -745,6 +1165,10 @@
       <data key="v_y">0.853718</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">129</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Zhu</data>
     </node>
     <node id="n105">
       <data key="v_name">01_74</data>
@@ -752,6 +1176,10 @@
       <data key="v_y">0.853229</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">128</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">RAP Manager</data>
     </node>
     <node id="n106">
       <data key="v_name">01_75</data>
@@ -759,6 +1187,10 @@
       <data key="v_y">0.853718</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">127</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Advancement Director</data>
     </node>
     <node id="n107">
       <data key="v_name">01_76</data>
@@ -766,6 +1198,10 @@
       <data key="v_y">0.853229</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">126</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">ML Huppatz</data>
     </node>
     <node id="n108">
       <data key="v_name">01_77</data>
@@ -773,6 +1209,10 @@
       <data key="v_y">0.855186</data>
       <data key="v_z">1</data>
       <data key="v_btwn">6.32887e-06</data>
+      <data key="v_spacename">124&amp;125</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">F. Downie</data>
     </node>
     <node id="n109">
       <data key="v_name">01_78</data>
@@ -780,6 +1220,10 @@
       <data key="v_y">0.854207</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">123</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Mylonas</data>
     </node>
     <node id="n110">
       <data key="v_name">01_79</data>
@@ -787,6 +1231,10 @@
       <data key="v_y">0.863992</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">121</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">DEAN</data>
     </node>
     <node id="n111">
       <data key="v_name">01_8</data>
@@ -794,6 +1242,10 @@
       <data key="v_y">0.183953</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">156</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Trewin</data>
     </node>
     <node id="n112">
       <data key="v_name">01_80</data>
@@ -801,6 +1253,10 @@
       <data key="v_y">0.834638</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">121</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">DEAN</data>
     </node>
     <node id="n113">
       <data key="v_name">01_81</data>
@@ -808,6 +1264,10 @@
       <data key="v_y">0.731409</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">119</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n114">
       <data key="v_name">01_82</data>
@@ -815,6 +1275,10 @@
       <data key="v_y">0.547456</data>
       <data key="v_z">1</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">103-theatre</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n115">
       <data key="v_name">01_83</data>
@@ -822,6 +1286,10 @@
       <data key="v_y">0.452544</data>
       <data key="v_z">1</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">104-eZONE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n116">
       <data key="v_name">01_84</data>
@@ -829,6 +1297,10 @@
       <data key="v_y">0.541096</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00349987</data>
+      <data key="v_spacename">SB2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n117">
       <data key="v_name">01_85</data>
@@ -836,6 +1308,10 @@
       <data key="v_y">0.462329</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00349987</data>
+      <data key="v_spacename">SB1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n118">
       <data key="v_name">01_86</data>
@@ -843,6 +1319,10 @@
       <data key="v_y">0.466732</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">SB1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n119">
       <data key="v_name">01_87</data>
@@ -850,6 +1330,10 @@
       <data key="v_y">0.365498</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA1_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n120">
       <data key="v_name">01_88</data>
@@ -857,6 +1341,10 @@
       <data key="v_y">0.632515</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA2_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n121">
       <data key="v_name">01_89</data>
@@ -864,6 +1352,10 @@
       <data key="v_y">0.349385</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">101-TOILET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n122">
       <data key="v_name">01_9</data>
@@ -871,6 +1363,10 @@
       <data key="v_y">0.184932</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">155</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">L. Wilks</data>
     </node>
     <node id="n123">
       <data key="v_name">01_90</data>
@@ -878,6 +1374,10 @@
       <data key="v_y">0.648628</data>
       <data key="v_z">1</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">102-TOILET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n124">
       <data key="v_name">02_1</data>
@@ -885,6 +1385,10 @@
       <data key="v_y">0.526421</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.197654</data>
+      <data key="v_spacename">L2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n125">
       <data key="v_name">02_10</data>
@@ -892,6 +1396,10 @@
       <data key="v_y">0.359765</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0773296</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n126">
       <data key="v_name">02_11</data>
@@ -899,6 +1407,10 @@
       <data key="v_y">0.505244</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.107643</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n127">
       <data key="v_name">02_12</data>
@@ -906,6 +1418,10 @@
       <data key="v_y">0.768677</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">219-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">R. Green</data>
     </node>
     <node id="n128">
       <data key="v_name">02_13</data>
@@ -913,6 +1429,10 @@
       <data key="v_y">0.788992</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">220-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Grose</data>
     </node>
     <node id="n129">
       <data key="v_name">02_14</data>
@@ -920,6 +1440,10 @@
       <data key="v_y">0.239188</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">228</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n130">
       <data key="v_name">02_15</data>
@@ -927,6 +1451,10 @@
       <data key="v_y">0.21658</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">227-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">D. Nichols</data>
     </node>
     <node id="n131">
       <data key="v_name">02_16</data>
@@ -934,6 +1462,10 @@
       <data key="v_y">0.258848</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">213-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Raisbeck</data>
     </node>
     <node id="n132">
       <data key="v_name">02_17</data>
@@ -941,6 +1473,10 @@
       <data key="v_y">0.739843</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">218-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Hurlimann</data>
     </node>
     <node id="n133">
       <data key="v_name">02_18</data>
@@ -948,6 +1484,10 @@
       <data key="v_y">0.671692</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.029639</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n134">
       <data key="v_name">02_19</data>
@@ -955,6 +1495,10 @@
       <data key="v_y">0.647773</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0940479</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n135">
       <data key="v_name">02_2</data>
@@ -962,6 +1506,10 @@
       <data key="v_y">0.476477</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.197654</data>
+      <data key="v_spacename">L1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n136">
       <data key="v_name">02_20</data>
@@ -969,6 +1517,10 @@
       <data key="v_y">0.649411</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0773296</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n137">
       <data key="v_name">02_21</data>
@@ -976,6 +1528,10 @@
       <data key="v_y">0.675624</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">217-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Wallis</data>
     </node>
     <node id="n138">
       <data key="v_name">02_22</data>
@@ -983,6 +1539,10 @@
       <data key="v_y">0.598297</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">216-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">S. Wilks</data>
     </node>
     <node id="n139">
       <data key="v_name">02_23</data>
@@ -990,6 +1550,10 @@
       <data key="v_y">0.522282</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">215-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Q. Guo</data>
     </node>
     <node id="n140">
       <data key="v_name">02_24</data>
@@ -997,6 +1561,10 @@
       <data key="v_y">0.451508</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">214-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">D. Hes</data>
     </node>
     <node id="n141">
       <data key="v_name">02_25</data>
@@ -1004,6 +1572,10 @@
       <data key="v_y">0.299476</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00052825</data>
+      <data key="v_spacename">207-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n142">
       <data key="v_name">02_26</data>
@@ -1011,6 +1583,10 @@
       <data key="v_y">0.699213</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00052825</data>
+      <data key="v_spacename">211-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n143">
       <data key="v_name">02_27</data>
@@ -1018,6 +1594,10 @@
       <data key="v_y">0.72084</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00462641</data>
+      <data key="v_spacename">211-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n144">
       <data key="v_name">02_28</data>
@@ -1025,6 +1605,10 @@
       <data key="v_y">0.719857</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00481965</data>
+      <data key="v_spacename">211-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n145">
       <data key="v_name">02_29</data>
@@ -1032,6 +1616,10 @@
       <data key="v_y">0.722806</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.000360746</data>
+      <data key="v_spacename">210-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">21</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n146">
       <data key="v_name">02_3</data>
@@ -1039,6 +1627,10 @@
       <data key="v_y">0.500656</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.260807</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n147">
       <data key="v_name">02_30</data>
@@ -1046,6 +1638,10 @@
       <data key="v_y">0.71232</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">CORRIDOR_6</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n148">
       <data key="v_name">02_31</data>
@@ -1053,6 +1649,10 @@
       <data key="v_y">0.765401</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">209-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">24</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n149">
       <data key="v_name">02_32</data>
@@ -1060,6 +1660,10 @@
       <data key="v_y">0.697904</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00465172</data>
+      <data key="v_spacename">231-PASSAGE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n150">
       <data key="v_name">02_33</data>
@@ -1067,6 +1671,10 @@
       <data key="v_y">0.476083</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0195917</data>
+      <data key="v_spacename">SB1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n151">
       <data key="v_name">02_34</data>
@@ -1074,6 +1682,10 @@
       <data key="v_y">0.276213</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.000360746</data>
+      <data key="v_spacename">206-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n152">
       <data key="v_name">02_35</data>
@@ -1081,6 +1693,10 @@
       <data key="v_y">0.286698</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00481965</data>
+      <data key="v_spacename">207-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n153">
       <data key="v_name">02_36</data>
@@ -1088,6 +1704,10 @@
       <data key="v_y">0.281783</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00462641</data>
+      <data key="v_spacename">207-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n154">
       <data key="v_name">02_37</data>
@@ -1095,6 +1715,10 @@
       <data key="v_y">0.591744</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">226-J.H.THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n155">
       <data key="v_name">02_38</data>
@@ -1102,6 +1726,10 @@
       <data key="v_y">0.409568</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">226-J.H.THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n156">
       <data key="v_name">02_39</data>
@@ -1109,6 +1737,10 @@
       <data key="v_y">0.262124</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0100249</data>
+      <data key="v_spacename">203-COMPUTER ROOM</data>
+      <data key="v_capacity">31</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n157">
       <data key="v_name">02_4</data>
@@ -1116,6 +1748,10 @@
       <data key="v_y">0.291613</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0348468</data>
+      <data key="v_spacename">CORRIDOR_5</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n158">
       <data key="v_name">02_40</data>
@@ -1123,6 +1759,10 @@
       <data key="v_y">0.22215</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">204A-COMMS ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n159">
       <data key="v_name">02_41</data>
@@ -1130,6 +1770,10 @@
       <data key="v_y">0.167104</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">203-COMPUTER CENTRE</data>
+      <data key="v_capacity">31</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n160">
       <data key="v_name">02_42</data>
@@ -1137,6 +1781,10 @@
       <data key="v_y">0.150722</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">204-IF ROOM</data>
+      <data key="v_capacity">3</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Klaus; N. Mansoury; G. Chanl</data>
     </node>
     <node id="n161">
       <data key="v_name">02_43</data>
@@ -1144,6 +1792,10 @@
       <data key="v_y">0.176279</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">205-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">18</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n162">
       <data key="v_name">02_44</data>
@@ -1151,6 +1803,10 @@
       <data key="v_y">0.207733</data>
       <data key="v_z">2</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">206-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n163">
       <data key="v_name">02_45</data>
@@ -1158,6 +1814,10 @@
       <data key="v_y">0.211665</data>
       <data key="v_z">2</data>
       <data key="v_btwn">1.89866e-05</data>
+      <data key="v_spacename">207-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n164">
       <data key="v_name">02_46</data>
@@ -1165,6 +1825,10 @@
       <data key="v_y">0.15924</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">227-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">D. Nichols</data>
     </node>
     <node id="n165">
       <data key="v_name">02_47</data>
@@ -1172,6 +1836,10 @@
       <data key="v_y">0.178245</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">212-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Willis</data>
     </node>
     <node id="n166">
       <data key="v_name">02_48</data>
@@ -1179,6 +1847,10 @@
       <data key="v_y">0.279162</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">213-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Raisbeck</data>
     </node>
     <node id="n167">
       <data key="v_name">02_49</data>
@@ -1186,6 +1858,10 @@
       <data key="v_y">0.209699</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.000211806</data>
+      <data key="v_spacename">207-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n168">
       <data key="v_name">02_5</data>
@@ -1193,6 +1869,10 @@
       <data key="v_y">0.300788</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00465172</data>
+      <data key="v_spacename">230-PASSAGE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n169">
       <data key="v_name">02_50</data>
@@ -1200,6 +1880,10 @@
       <data key="v_y">0.425951</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">214-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">D. Hes</data>
     </node>
     <node id="n170">
       <data key="v_name">02_51</data>
@@ -1207,6 +1891,10 @@
       <data key="v_y">0.500656</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">215-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Q. Guo</data>
     </node>
     <node id="n171">
       <data key="v_name">02_52</data>
@@ -1214,6 +1902,10 @@
       <data key="v_y">0.573395</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">216-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">S. Wilks</data>
     </node>
     <node id="n172">
       <data key="v_name">02_53</data>
@@ -1221,6 +1913,10 @@
       <data key="v_y">0.647445</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">217-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Wallis</data>
     </node>
     <node id="n173">
       <data key="v_name">02_54</data>
@@ -1228,6 +1924,10 @@
       <data key="v_y">0.720184</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">218-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Hurlimann</data>
     </node>
     <node id="n174">
       <data key="v_name">02_55</data>
@@ -1235,6 +1935,10 @@
       <data key="v_y">0.823722</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">219-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">R. Green</data>
     </node>
     <node id="n175">
       <data key="v_name">02_56</data>
@@ -1242,6 +1946,10 @@
       <data key="v_y">0.838795</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">220-OFFICE</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Grose</data>
     </node>
     <node id="n176">
       <data key="v_name">02_57</data>
@@ -1249,6 +1957,10 @@
       <data key="v_y">0.790957</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.000211806</data>
+      <data key="v_spacename">211-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n177">
       <data key="v_name">02_58</data>
@@ -1256,6 +1968,10 @@
       <data key="v_y">0.789646</data>
       <data key="v_z">2</data>
       <data key="v_btwn">1.89866e-05</data>
+      <data key="v_spacename">211-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n178">
       <data key="v_name">02_59</data>
@@ -1263,6 +1979,10 @@
       <data key="v_y">0.790957</data>
       <data key="v_z">2</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">210-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">21</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n179">
       <data key="v_name">02_6</data>
@@ -1270,6 +1990,10 @@
       <data key="v_y">0.257209</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">205-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">18</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n180">
       <data key="v_name">02_60</data>
@@ -1277,6 +2001,10 @@
       <data key="v_y">0.823722</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">209-FLEXIBLE TEACHING SPACE</data>
+      <data key="v_capacity">24</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n181">
       <data key="v_name">02_61</data>
@@ -1284,6 +2012,10 @@
       <data key="v_y">0.788991</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">208-COMPUTER CENTRE</data>
+      <data key="v_capacity">31</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n182">
       <data key="v_name">02_62</data>
@@ -1291,6 +2023,10 @@
       <data key="v_y">0.547838</data>
       <data key="v_z">2</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">226-J.H.THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n183">
       <data key="v_name">02_63</data>
@@ -1298,6 +2034,10 @@
       <data key="v_y">0.450197</data>
       <data key="v_z">2</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">226-J.H.THEATRE</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n184">
       <data key="v_name">02_64</data>
@@ -1305,6 +2045,10 @@
       <data key="v_y">0.366029</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA1_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n185">
       <data key="v_name">02_65</data>
@@ -1312,6 +2056,10 @@
       <data key="v_y">0.626477</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA2_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n186">
       <data key="v_name">02_66</data>
@@ -1319,6 +2067,10 @@
       <data key="v_y">0.353572</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">201-TOILET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n187">
       <data key="v_name">02_67</data>
@@ -1326,6 +2078,10 @@
       <data key="v_y">0.644439</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">202-TOILET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n188">
       <data key="v_name">02_7</data>
@@ -1333,6 +2089,10 @@
       <data key="v_y">0.254588</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">204A-COMMS ROOM</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n189">
       <data key="v_name">02_8</data>
@@ -1340,6 +2100,10 @@
       <data key="v_y">0.332242</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0274109</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n190">
       <data key="v_name">02_9</data>
@@ -1347,6 +2111,10 @@
       <data key="v_y">0.351246</data>
       <data key="v_z">2</data>
       <data key="v_btwn">0.0873244</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n191">
       <data key="v_name">03_1</data>
@@ -1354,6 +2122,10 @@
       <data key="v_y">0.527529</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.183687</data>
+      <data key="v_spacename">L2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n192">
       <data key="v_name">03_10</data>
@@ -1361,6 +2133,10 @@
       <data key="v_y">0.646499</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0740668</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n193">
       <data key="v_name">03_11</data>
@@ -1368,6 +2144,10 @@
       <data key="v_y">0.289103</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">304</data>
+      <data key="v_capacity">31</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n194">
       <data key="v_name">03_12</data>
@@ -1375,6 +2155,10 @@
       <data key="v_y">0.259635</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">306</data>
+      <data key="v_capacity">12</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n195">
       <data key="v_name">03_13</data>
@@ -1382,6 +2166,10 @@
       <data key="v_y">0.274209</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">307</data>
+      <data key="v_capacity">12</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n196">
       <data key="v_name">03_14</data>
@@ -1389,6 +2177,10 @@
       <data key="v_y">0.293221</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00250623</data>
+      <data key="v_spacename">308</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n197">
       <data key="v_name">03_15</data>
@@ -1396,6 +2188,10 @@
       <data key="v_y">0.248861</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00250623</data>
+      <data key="v_spacename">308</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n198">
       <data key="v_name">03_16</data>
@@ -1403,6 +2199,10 @@
       <data key="v_y">0.254884</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0249737</data>
+      <data key="v_spacename">CORRIDOR_5</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n199">
       <data key="v_name">03_17</data>
@@ -1410,6 +2210,10 @@
       <data key="v_y">0.216863</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">310</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n200">
       <data key="v_name">03_18</data>
@@ -1417,6 +2221,10 @@
       <data key="v_y">0.247279</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">311</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n201">
       <data key="v_name">03_19</data>
@@ -1424,6 +2232,10 @@
       <data key="v_y">0.75676</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0249231</data>
+      <data key="v_spacename">317</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n202">
       <data key="v_name">03_2</data>
@@ -1431,6 +2243,10 @@
       <data key="v_y">0.476952</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.183687</data>
+      <data key="v_spacename">L1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n203">
       <data key="v_name">03_20</data>
@@ -1438,6 +2254,10 @@
       <data key="v_y">0.687056</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">316</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">John Sodar</data>
     </node>
     <node id="n204">
       <data key="v_name">03_21</data>
@@ -1445,6 +2265,10 @@
       <data key="v_y">0.611646</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">315</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">AnnMarie Brennan</data>
     </node>
     <node id="n205">
       <data key="v_name">03_22</data>
@@ -1452,6 +2276,10 @@
       <data key="v_y">0.535605</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">314</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Justyna Karakewiecz</data>
     </node>
     <node id="n206">
       <data key="v_name">03_23</data>
@@ -1459,6 +2287,10 @@
       <data key="v_y">0.465266</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">313</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Janet McGaw</data>
     </node>
     <node id="n207">
       <data key="v_name">03_24</data>
@@ -1466,6 +2298,10 @@
       <data key="v_y">0.726028</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">320</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n208">
       <data key="v_name">03_25</data>
@@ -1473,6 +2309,10 @@
       <data key="v_y">0.727295</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">321</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n209">
       <data key="v_name">03_26</data>
@@ -1480,6 +2320,10 @@
       <data key="v_y">0.727295</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">322</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n210">
       <data key="v_name">03_27</data>
@@ -1487,6 +2331,10 @@
       <data key="v_y">0.744087</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">323-Graduate Lounge</data>
+      <data key="v_capacity">12</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n211">
       <data key="v_name">03_28</data>
@@ -1494,6 +2342,10 @@
       <data key="v_y">0.709234</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">324</data>
+      <data key="v_capacity">37</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n212">
       <data key="v_name">03_29</data>
@@ -1501,6 +2353,10 @@
       <data key="v_y">0.59327</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">303</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n213">
       <data key="v_name">03_3</data>
@@ -1508,6 +2364,10 @@
       <data key="v_y">0.494732</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.221793</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n214">
       <data key="v_name">03_30</data>
@@ -1515,6 +2375,10 @@
       <data key="v_y">0.408869</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00499981</data>
+      <data key="v_spacename">303</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n215">
       <data key="v_name">03_31</data>
@@ -1522,6 +2386,10 @@
       <data key="v_y">0.471603</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0254699</data>
+      <data key="v_spacename">SB1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n216">
       <data key="v_name">03_32</data>
@@ -1529,6 +2397,10 @@
       <data key="v_y">0.210393</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">304</data>
+      <data key="v_capacity">31</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n217">
       <data key="v_name">03_33</data>
@@ -1536,6 +2408,10 @@
       <data key="v_y">0.176172</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">306</data>
+      <data key="v_capacity">12</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n218">
       <data key="v_name">03_34</data>
@@ -1543,6 +2419,10 @@
       <data key="v_y">0.19962</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">307</data>
+      <data key="v_capacity">12</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n219">
       <data key="v_name">03_35</data>
@@ -1550,6 +2430,10 @@
       <data key="v_y">0.200887</data>
       <data key="v_z">3</data>
       <data key="v_btwn">6.32887e-06</data>
+      <data key="v_spacename">308</data>
+      <data key="v_capacity">32</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n220">
       <data key="v_name">03_36</data>
@@ -1557,6 +2441,10 @@
       <data key="v_y">0.153992</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">309</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n221">
       <data key="v_name">03_37</data>
@@ -1564,6 +2452,10 @@
       <data key="v_y">0.1673</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">310</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n222">
       <data key="v_name">03_38</data>
@@ -1571,6 +2463,10 @@
       <data key="v_y">0.261724</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">311</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n223">
       <data key="v_name">03_39</data>
@@ -1578,6 +2474,10 @@
       <data key="v_y">0.446134</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">313</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Janet McGaw</data>
     </node>
     <node id="n224">
       <data key="v_name">03_4</data>
@@ -1585,6 +2485,10 @@
       <data key="v_y">0.332827</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0238768</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n225">
       <data key="v_name">03_40</data>
@@ -1592,6 +2496,10 @@
       <data key="v_y">0.518378</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">314</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Justyna Karakewiecz</data>
     </node>
     <node id="n226">
       <data key="v_name">03_41</data>
@@ -1599,6 +2507,10 @@
       <data key="v_y">0.591888</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">315</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">AnnMarie Brennan</data>
     </node>
     <node id="n227">
       <data key="v_name">03_42</data>
@@ -1606,6 +2518,10 @@
       <data key="v_y">0.666667</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">316</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">John Sodar</data>
     </node>
     <node id="n228">
       <data key="v_name">03_43</data>
@@ -1613,6 +2529,10 @@
       <data key="v_y">0.737643</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">317</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNKNOWN</data>
     </node>
     <node id="n229">
       <data key="v_name">03_44</data>
@@ -1620,6 +2540,10 @@
       <data key="v_y">0.832066</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">318</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Phillip Goad</data>
     </node>
     <node id="n230">
       <data key="v_name">03_45</data>
@@ -1627,6 +2551,10 @@
       <data key="v_y">0.848542</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">319</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Nicola Blaxill</data>
     </node>
     <node id="n231">
       <data key="v_name">03_46</data>
@@ -1634,6 +2562,10 @@
       <data key="v_y">0.782636</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">CORRIDOR_6</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n232">
       <data key="v_name">03_47</data>
@@ -1641,6 +2573,10 @@
       <data key="v_y">0.787072</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">318</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Phillip Goad</data>
     </node>
     <node id="n233">
       <data key="v_name">03_48</data>
@@ -1648,6 +2584,10 @@
       <data key="v_y">0.797845</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">320</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n234">
       <data key="v_name">03_49</data>
@@ -1655,6 +2595,10 @@
       <data key="v_y">0.798479</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">321</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n235">
       <data key="v_name">03_5</data>
@@ -1662,6 +2606,10 @@
       <data key="v_y">0.351837</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0991885</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n236">
       <data key="v_name">03_50</data>
@@ -1669,6 +2617,10 @@
       <data key="v_y">0.797845</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">322</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n237">
       <data key="v_name">03_51</data>
@@ -1676,6 +2628,10 @@
       <data key="v_y">0.823194</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">323-Graduate Lounge</data>
+      <data key="v_capacity">12</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n238">
       <data key="v_name">03_52</data>
@@ -1683,6 +2639,10 @@
       <data key="v_y">0.788973</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">324</data>
+      <data key="v_capacity">37</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n239">
       <data key="v_name">03_53</data>
@@ -1690,6 +2650,10 @@
       <data key="v_y">0.548162</data>
       <data key="v_z">3</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">303</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n240">
       <data key="v_name">03_54</data>
@@ -1697,6 +2661,10 @@
       <data key="v_y">0.45057</data>
       <data key="v_z">3</data>
       <data key="v_btwn">1.26577e-05</data>
+      <data key="v_spacename">303</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n241">
       <data key="v_name">03_55</data>
@@ -1704,6 +2672,10 @@
       <data key="v_y">0.371164</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA1_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n242">
       <data key="v_name">03_56</data>
@@ -1711,6 +2683,10 @@
       <data key="v_y">0.629398</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA2_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n243">
       <data key="v_name">03_57</data>
@@ -1718,6 +2694,10 @@
       <data key="v_y">0.359033</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">301</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n244">
       <data key="v_name">03_58</data>
@@ -1725,6 +2705,10 @@
       <data key="v_y">0.644418</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">302</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n245">
       <data key="v_name">03_6</data>
@@ -1732,6 +2716,10 @@
       <data key="v_y">0.667411</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0258075</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n246">
       <data key="v_name">03_7</data>
@@ -1739,6 +2727,10 @@
       <data key="v_y">0.64745</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.108027</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n247">
       <data key="v_name">03_8</data>
@@ -1746,6 +2738,10 @@
       <data key="v_y">0.541626</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0697568</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n248">
       <data key="v_name">03_9</data>
@@ -1753,6 +2749,10 @@
       <data key="v_y">0.348035</data>
       <data key="v_z">3</data>
       <data key="v_btwn">0.0983634</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n249">
       <data key="v_name">04_1</data>
@@ -1760,6 +2760,10 @@
       <data key="v_y">0.479582</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.144979</data>
+      <data key="v_spacename">L2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n250">
       <data key="v_name">04_10</data>
@@ -1767,6 +2771,10 @@
       <data key="v_y">0.190774</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0100376</data>
+      <data key="v_spacename">415</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Patrick Janssen</data>
     </node>
     <node id="n251">
       <data key="v_name">04_11</data>
@@ -1774,6 +2782,10 @@
       <data key="v_y">0.212114</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0149994</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n252">
       <data key="v_name">04_12</data>
@@ -1781,6 +2793,10 @@
       <data key="v_y">0.218943</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">412A</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Jules Moloney</data>
     </node>
     <node id="n253">
       <data key="v_name">04_13</data>
@@ -1788,6 +2804,10 @@
       <data key="v_y">0.365767</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">414</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n254">
       <data key="v_name">04_14</data>
@@ -1795,6 +2815,10 @@
       <data key="v_y">0.435764</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0110414</data>
+      <data key="v_spacename">SB1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n255">
       <data key="v_name">04_15</data>
@@ -1802,6 +2826,10 @@
       <data key="v_y">0.225772</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">419-RHD WORK SPACE</data>
+      <data key="v_capacity">100</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n256">
       <data key="v_name">04_16</data>
@@ -1809,6 +2837,10 @@
       <data key="v_y">0.208273</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">418-RHD Lounge</data>
+      <data key="v_capacity">16</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n257">
       <data key="v_name">04_17</data>
@@ -1816,6 +2848,10 @@
       <data key="v_y">0.587709</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0396441</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n258">
       <data key="v_name">04_18</data>
@@ -1823,6 +2859,10 @@
       <data key="v_y">0.668377</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0248725</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n259">
       <data key="v_name">04_19</data>
@@ -1830,6 +2870,10 @@
       <data key="v_y">0.748192</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0199866</data>
+      <data key="v_spacename">CORRIDOR_5</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n260">
       <data key="v_name">04_2</data>
@@ -1837,6 +2881,10 @@
       <data key="v_y">0.428486</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.144979</data>
+      <data key="v_spacename">L1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n261">
       <data key="v_name">04_20</data>
@@ -1844,6 +2892,10 @@
       <data key="v_y">0.532224</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">401-Library</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n262">
       <data key="v_name">04_21</data>
@@ -1851,6 +2903,10 @@
       <data key="v_y">0.619721</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">401-Library</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n263">
       <data key="v_name">04_22</data>
@@ -1858,6 +2914,10 @@
       <data key="v_y">0.762276</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0100249</data>
+      <data key="v_spacename">401A</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n264">
       <data key="v_name">04_23</data>
@@ -1865,6 +2925,10 @@
       <data key="v_y">0.775935</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">401A</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n265">
       <data key="v_name">04_24</data>
@@ -1872,6 +2936,10 @@
       <data key="v_y">0.81136</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">401A</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n266">
       <data key="v_name">04_25</data>
@@ -1879,6 +2947,10 @@
       <data key="v_y">0.751607</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">402A</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n267">
       <data key="v_name">04_26</data>
@@ -1886,6 +2958,10 @@
       <data key="v_y">0.456678</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">414</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n268">
       <data key="v_name">04_27</data>
@@ -1893,6 +2969,10 @@
       <data key="v_y">0.325083</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA1_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n269">
       <data key="v_name">04_28</data>
@@ -1900,6 +2980,10 @@
       <data key="v_y">0.591358</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA2_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n270">
       <data key="v_name">04_29</data>
@@ -1907,6 +2991,10 @@
       <data key="v_y">0.311999</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">400</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n271">
       <data key="v_name">04_3</data>
@@ -1914,6 +3002,10 @@
       <data key="v_y">0.422533</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.101464</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n272">
       <data key="v_name">04_30</data>
@@ -1921,6 +3013,10 @@
       <data key="v_y">0.606649</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">400A</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n273">
       <data key="v_name">04_4</data>
@@ -1928,6 +3024,10 @@
       <data key="v_y">0.631245</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0127935</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n274">
       <data key="v_name">04_5</data>
@@ -1935,6 +3035,10 @@
       <data key="v_y">0.609478</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.106149</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n275">
       <data key="v_name">04_6</data>
@@ -1942,6 +3046,10 @@
       <data key="v_y">0.28638</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.0118501</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n276">
       <data key="v_name">04_7</data>
@@ -1949,6 +3057,10 @@
       <data key="v_y">0.307721</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0.096112</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n277">
       <data key="v_name">04_8</data>
@@ -1956,6 +3068,10 @@
       <data key="v_y">0.21937</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">412-CRIDA</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n278">
       <data key="v_name">04_9</data>
@@ -1963,6 +3079,10 @@
       <data key="v_y">0.18053</data>
       <data key="v_z">4</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">416</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">Bharat Dave</data>
     </node>
     <node id="n279">
       <data key="v_name">05_1</data>
@@ -1970,6 +3090,10 @@
       <data key="v_y">0.523997</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.117643</data>
+      <data key="v_spacename">L2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n280">
       <data key="v_name">05_10</data>
@@ -1977,6 +3101,10 @@
       <data key="v_y">0.157216</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0016666</data>
+      <data key="v_spacename">505-Sessional Staff</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n281">
       <data key="v_name">05_11</data>
@@ -1984,6 +3112,10 @@
       <data key="v_y">0.179897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">508</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Lau</data>
     </node>
     <node id="n282">
       <data key="v_name">05_12</data>
@@ -1991,6 +3123,10 @@
       <data key="v_y">0.179897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">509</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Serafim</data>
     </node>
     <node id="n283">
       <data key="v_name">05_13</data>
@@ -1998,6 +3134,10 @@
       <data key="v_y">0.179897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">510</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">S. Sibanda</data>
     </node>
     <node id="n284">
       <data key="v_name">05_14</data>
@@ -2005,6 +3145,10 @@
       <data key="v_y">0.179897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">511</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNESCO</data>
     </node>
     <node id="n285">
       <data key="v_name">05_15</data>
@@ -2012,6 +3156,10 @@
       <data key="v_y">0.178866</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">513</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNESCO</data>
     </node>
     <node id="n286">
       <data key="v_name">05_16</data>
@@ -2019,6 +3167,10 @@
       <data key="v_y">0.177835</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">514</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">L. Joubert</data>
     </node>
     <node id="n287">
       <data key="v_name">05_17</data>
@@ -2026,6 +3178,10 @@
       <data key="v_y">0.477835</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0328469</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n288">
       <data key="v_name">05_18</data>
@@ -2033,6 +3189,10 @@
       <data key="v_y">0.747423</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.118204</data>
+      <data key="v_spacename">CORRIDOR_5</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n289">
       <data key="v_name">05_19</data>
@@ -2040,6 +3200,10 @@
       <data key="v_y">0.765464</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">534</data>
+      <data key="v_capacity">6</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Hargrave; M. Burder; L. Sheehy; A. Spark; R. Edwards; T. Zara</data>
     </node>
     <node id="n290">
       <data key="v_name">05_2</data>
@@ -2047,6 +3211,10 @@
       <data key="v_y">0.47677</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.117643</data>
+      <data key="v_spacename">L1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n291">
       <data key="v_name">05_20</data>
@@ -2054,6 +3222,10 @@
       <data key="v_y">0.763402</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">533</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n292">
       <data key="v_name">05_21</data>
@@ -2061,6 +3233,10 @@
       <data key="v_y">0.761856</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">532</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n293">
       <data key="v_name">05_22</data>
@@ -2068,6 +3244,10 @@
       <data key="v_y">0.728866</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">521</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n294">
       <data key="v_name">05_23</data>
@@ -2075,6 +3255,10 @@
       <data key="v_y">0.71134</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">520-APPLE CLUB</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n295">
       <data key="v_name">05_24</data>
@@ -2082,6 +3266,10 @@
       <data key="v_y">0.71134</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">522</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n296">
       <data key="v_name">05_25</data>
@@ -2089,6 +3277,10 @@
       <data key="v_y">0.770103</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">531</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n297">
       <data key="v_name">05_26</data>
@@ -2096,6 +3288,10 @@
       <data key="v_y">0.770103</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">530</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n298">
       <data key="v_name">05_27</data>
@@ -2103,6 +3299,10 @@
       <data key="v_y">0.769072</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">529</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n299">
       <data key="v_name">05_28</data>
@@ -2110,6 +3310,10 @@
       <data key="v_y">0.769072</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">528</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n300">
       <data key="v_name">05_29</data>
@@ -2117,6 +3321,10 @@
       <data key="v_y">0.723711</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">527</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n301">
       <data key="v_name">05_3</data>
@@ -2124,6 +3332,10 @@
       <data key="v_y">0.470103</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.325775</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n302">
       <data key="v_name">05_30</data>
@@ -2131,6 +3343,10 @@
       <data key="v_y">0.572165</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">525/526</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n303">
       <data key="v_name">05_31</data>
@@ -2138,6 +3354,10 @@
       <data key="v_y">0.321649</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">524</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n304">
       <data key="v_name">05_32</data>
@@ -2145,6 +3365,10 @@
       <data key="v_y">0.269072</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">515</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n305">
       <data key="v_name">05_33</data>
@@ -2152,6 +3376,10 @@
       <data key="v_y">0.276289</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">CORRIDOR_9</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n306">
       <data key="v_name">05_34</data>
@@ -2159,6 +3387,10 @@
       <data key="v_y">0.314433</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">517</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n307">
       <data key="v_name">05_35</data>
@@ -2166,6 +3398,10 @@
       <data key="v_y">0.5</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0199992</data>
+      <data key="v_spacename">CORRIDOR_8</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n308">
       <data key="v_name">05_36</data>
@@ -2173,6 +3409,10 @@
       <data key="v_y">0.475258</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">518</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Williams</data>
     </node>
     <node id="n309">
       <data key="v_name">05_37</data>
@@ -2180,6 +3420,10 @@
       <data key="v_y">0.532474</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">519</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Turnball</data>
     </node>
     <node id="n310">
       <data key="v_name">05_38</data>
@@ -2187,6 +3431,10 @@
       <data key="v_y">0.66701</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0387186</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n311">
       <data key="v_name">05_39</data>
@@ -2194,6 +3442,10 @@
       <data key="v_y">0.647938</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.116401</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n312">
       <data key="v_name">05_4</data>
@@ -2201,6 +3453,10 @@
       <data key="v_y">0.223711</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">501</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n313">
       <data key="v_name">05_40</data>
@@ -2208,6 +3464,10 @@
       <data key="v_y">0.330928</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0357183</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n314">
       <data key="v_name">05_41</data>
@@ -2215,6 +3475,10 @@
       <data key="v_y">0.351031</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.103014</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n315">
       <data key="v_name">05_42</data>
@@ -2222,6 +3486,10 @@
       <data key="v_y">0.401031</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0199486</data>
+      <data key="v_spacename">CORRIDOR_6</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n316">
       <data key="v_name">05_43</data>
@@ -2229,6 +3497,10 @@
       <data key="v_y">0.435052</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">CORRIDOR_7</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n317">
       <data key="v_name">05_44</data>
@@ -2236,6 +3508,10 @@
       <data key="v_y">0.408247</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">540</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">E. Potter</data>
     </node>
     <node id="n318">
       <data key="v_name">05_45</data>
@@ -2243,6 +3519,10 @@
       <data key="v_y">0.590722</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">538</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n319">
       <data key="v_name">05_46</data>
@@ -2250,6 +3530,10 @@
       <data key="v_y">0.731443</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">535</data>
+      <data key="v_capacity">2</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Ewe; S. Morgan</data>
     </node>
     <node id="n320">
       <data key="v_name">05_47</data>
@@ -2257,6 +3541,10 @@
       <data key="v_y">0.83866</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">534</data>
+      <data key="v_capacity">6</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Hargrave; M. Burder; L. Sheehy; A. Spark; R. Edwards; T. Zara</data>
     </node>
     <node id="n321">
       <data key="v_name">05_48</data>
@@ -2264,6 +3552,10 @@
       <data key="v_y">0.835052</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">533</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n322">
       <data key="v_name">05_49</data>
@@ -2271,6 +3563,10 @@
       <data key="v_y">0.835052</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">532</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n323">
       <data key="v_name">05_5</data>
@@ -2278,6 +3574,10 @@
       <data key="v_y">0.194845</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0150247</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n324">
       <data key="v_name">05_50</data>
@@ -2285,6 +3585,10 @@
       <data key="v_y">0.842784</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">531</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n325">
       <data key="v_name">05_51</data>
@@ -2292,6 +3596,10 @@
       <data key="v_y">0.842784</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">530</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n326">
       <data key="v_name">05_52</data>
@@ -2299,6 +3607,10 @@
       <data key="v_y">0.841753</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">529</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n327">
       <data key="v_name">05_53</data>
@@ -2306,6 +3618,10 @@
       <data key="v_y">0.842268</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">528</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n328">
       <data key="v_name">05_54</data>
@@ -2313,6 +3629,10 @@
       <data key="v_y">0.690722</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">527</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n329">
       <data key="v_name">05_55</data>
@@ -2320,6 +3640,10 @@
       <data key="v_y">0.5</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">525/526</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n330">
       <data key="v_name">05_56</data>
@@ -2327,6 +3651,10 @@
       <data key="v_y">0.328866</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">524</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n331">
       <data key="v_name">05_57</data>
@@ -2334,6 +3662,10 @@
       <data key="v_y">0.130928</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">514</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">L. Joubert</data>
     </node>
     <node id="n332">
       <data key="v_name">05_58</data>
@@ -2341,6 +3673,10 @@
       <data key="v_y">0.182474</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">512</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Hass</data>
     </node>
     <node id="n333">
       <data key="v_name">05_59</data>
@@ -2348,6 +3684,10 @@
       <data key="v_y">0.131443</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">512</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">A. Hass</data>
     </node>
     <node id="n334">
       <data key="v_name">05_6</data>
@@ -2355,6 +3695,10 @@
       <data key="v_y">0.167526</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">504</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">R. King</data>
     </node>
     <node id="n335">
       <data key="v_name">05_60</data>
@@ -2362,6 +3706,10 @@
       <data key="v_y">0.129897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">513</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNESCO</data>
     </node>
     <node id="n336">
       <data key="v_name">05_61</data>
@@ -2369,6 +3717,10 @@
       <data key="v_y">0.130412</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">511</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">UNESCO</data>
     </node>
     <node id="n337">
       <data key="v_name">05_62</data>
@@ -2376,6 +3728,10 @@
       <data key="v_y">0.130928</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">510</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">S. Sibanda</data>
     </node>
     <node id="n338">
       <data key="v_name">05_63</data>
@@ -2383,6 +3739,10 @@
       <data key="v_y">0.129897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">509</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">M. Serafim</data>
     </node>
     <node id="n339">
       <data key="v_name">05_64</data>
@@ -2390,6 +3750,10 @@
       <data key="v_y">0.131443</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">508</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Lau</data>
     </node>
     <node id="n340">
       <data key="v_name">05_65</data>
@@ -2397,6 +3761,10 @@
       <data key="v_y">0.134021</data>
       <data key="v_z">5</data>
       <data key="v_btwn">1.89866e-05</data>
+      <data key="v_spacename">505-Sessional Staff</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n341">
       <data key="v_name">05_66</data>
@@ -2404,6 +3772,10 @@
       <data key="v_y">0.130928</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">504</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">R. King</data>
     </node>
     <node id="n342">
       <data key="v_name">05_67</data>
@@ -2411,6 +3783,10 @@
       <data key="v_y">0.153093</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">502-Honorary Fellows</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n343">
       <data key="v_name">05_68</data>
@@ -2418,6 +3794,10 @@
       <data key="v_y">0.262887</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">501</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n344">
       <data key="v_name">05_69</data>
@@ -2425,6 +3805,10 @@
       <data key="v_y">0.428351</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">540</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">E. Potter</data>
     </node>
     <node id="n345">
       <data key="v_name">05_7</data>
@@ -2432,6 +3816,10 @@
       <data key="v_y">0.21134</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.113401</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n346">
       <data key="v_name">05_70</data>
@@ -2439,6 +3827,10 @@
       <data key="v_y">0.491237</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">539</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">K. Shaw</data>
     </node>
     <node id="n347">
       <data key="v_name">05_71</data>
@@ -2446,6 +3838,10 @@
       <data key="v_y">0.564433</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">538</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n348">
       <data key="v_name">05_72</data>
@@ -2453,6 +3849,10 @@
       <data key="v_y">0.671134</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">521</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n349">
       <data key="v_name">05_73</data>
@@ -2460,6 +3860,10 @@
       <data key="v_y">0.674227</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">522</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n350">
       <data key="v_name">05_74</data>
@@ -2467,6 +3871,10 @@
       <data key="v_y">0.327835</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">515</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n351">
       <data key="v_name">05_75</data>
@@ -2474,6 +3882,10 @@
       <data key="v_y">0.325773</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">516</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n352">
       <data key="v_name">05_76</data>
@@ -2481,6 +3893,10 @@
       <data key="v_y">0.345361</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">517</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n353">
       <data key="v_name">05_77</data>
@@ -2488,6 +3904,10 @@
       <data key="v_y">0.429897</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">518</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">P. Williams</data>
     </node>
     <node id="n354">
       <data key="v_name">05_78</data>
@@ -2495,6 +3915,10 @@
       <data key="v_y">0.576804</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">519</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Turnball</data>
     </node>
     <node id="n355">
       <data key="v_name">05_79</data>
@@ -2502,6 +3926,10 @@
       <data key="v_y">0.658763</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">520-APPLE CLUB</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n356">
       <data key="v_name">05_8</data>
@@ -2509,6 +3937,10 @@
       <data key="v_y">0.180928</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0016666</data>
+      <data key="v_spacename">505-Sessional Staff</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n357">
       <data key="v_name">05_80</data>
@@ -2516,6 +3948,10 @@
       <data key="v_y">0.374734</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA1_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n358">
       <data key="v_name">05_81</data>
@@ -2523,6 +3959,10 @@
       <data key="v_y">0.625104</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">SA2_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n359">
       <data key="v_name">05_82</data>
@@ -2530,6 +3970,10 @@
       <data key="v_y">0.36433</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">545-TOLIET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n360">
       <data key="v_name">05_83</data>
@@ -2537,6 +3981,10 @@
       <data key="v_y">0.636892</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">546-TOLIET</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n361">
       <data key="v_name">05_9</data>
@@ -2544,6 +3992,10 @@
       <data key="v_y">0.175773</data>
       <data key="v_z">5</data>
       <data key="v_btwn">0.0016666</data>
+      <data key="v_spacename">505-Sessional Staff</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n362">
       <data key="v_name">06_1</data>
@@ -2551,6 +4003,10 @@
       <data key="v_y">0.29555</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.0149303</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n363">
       <data key="v_name">06_10</data>
@@ -2558,6 +4014,10 @@
       <data key="v_y">0.691549</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.0151887</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n364">
       <data key="v_name">06_11</data>
@@ -2565,6 +4025,10 @@
       <data key="v_y">0.490216</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.00299632</data>
+      <data key="v_spacename">602-PhD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n365">
       <data key="v_name">06_12</data>
@@ -2572,6 +4036,10 @@
       <data key="v_y">0.234001</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">601</data>
+      <data key="v_capacity">1</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">J. Pike</data>
     </node>
     <node id="n366">
       <data key="v_name">06_13</data>
@@ -2579,6 +4047,10 @@
       <data key="v_y">0.752668</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">603-Research</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n367">
       <data key="v_name">06_14</data>
@@ -2586,6 +4058,10 @@
       <data key="v_y">0.888668</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.000141179</data>
+      <data key="v_spacename">604-Studio_part1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n368">
       <data key="v_name">06_15</data>
@@ -2593,6 +4069,10 @@
       <data key="v_y">0.104</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.000159111</data>
+      <data key="v_spacename">604-Studio_part2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n369">
       <data key="v_name">06_16</data>
@@ -2600,6 +4080,10 @@
       <data key="v_y">0.632001</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.00165045</data>
+      <data key="v_spacename">604-Studio_part3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n370">
       <data key="v_name">06_17</data>
@@ -2607,6 +4091,10 @@
       <data key="v_y">0.339335</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.00161248</data>
+      <data key="v_spacename">604-Studio_part4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n371">
       <data key="v_name">06_2</data>
@@ -2614,6 +4102,10 @@
       <data key="v_y">0.228882</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.0760005</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n372">
       <data key="v_name">06_3</data>
@@ -2621,6 +4113,10 @@
       <data key="v_y">0.252882</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n373">
       <data key="v_name">06_4</data>
@@ -2628,6 +4124,10 @@
       <data key="v_y">0.147549</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">SA1_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n374">
       <data key="v_name">06_5</data>
@@ -2635,6 +4135,10 @@
       <data key="v_y">0.156883</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.00449983</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n375">
       <data key="v_name">06_6</data>
@@ -2642,6 +4146,10 @@
       <data key="v_y">0.843547</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n376">
       <data key="v_name">06_7</data>
@@ -2649,6 +4157,10 @@
       <data key="v_y">0.756525</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.0902512</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n377">
       <data key="v_name">06_8</data>
@@ -2656,6 +4168,10 @@
       <data key="v_y">0.734217</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">SA2_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n378">
       <data key="v_name">06_9</data>
@@ -2663,6 +4179,10 @@
       <data key="v_y">0.830216</data>
       <data key="v_z">6</data>
       <data key="v_btwn">0.00454202</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n379">
       <data key="v_name">07_1</data>
@@ -2670,6 +4190,10 @@
       <data key="v_y">0.0953844</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00230582</data>
+      <data key="v_spacename">705-Research_part1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n380">
       <data key="v_name">07_10</data>
@@ -2677,6 +4201,10 @@
       <data key="v_y">0.88081</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">702-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n381">
       <data key="v_name">07_11</data>
@@ -2684,6 +4212,10 @@
       <data key="v_y">0.879247</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">703-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n382">
       <data key="v_name">07_12</data>
@@ -2691,6 +4223,10 @@
       <data key="v_y">0.746154</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00502513</data>
+      <data key="v_spacename">704-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n383">
       <data key="v_name">07_13</data>
@@ -2698,6 +4234,10 @@
       <data key="v_y">0.286863</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00783322</data>
+      <data key="v_spacename">705-Research_part2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n384">
       <data key="v_name">07_14</data>
@@ -2705,6 +4245,10 @@
       <data key="v_y">0.133846</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00288404</data>
+      <data key="v_spacename">705-Research_part3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n385">
       <data key="v_name">07_15</data>
@@ -2712,6 +4256,10 @@
       <data key="v_y">0.0638459</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.000183723</data>
+      <data key="v_spacename">705-Research_part4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n386">
       <data key="v_name">07_16</data>
@@ -2719,6 +4267,10 @@
       <data key="v_y">0.138461</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00712824</data>
+      <data key="v_spacename">705-Research_part5</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n387">
       <data key="v_name">07_17</data>
@@ -2726,6 +4278,10 @@
       <data key="v_y">0.857692</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">701-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n388">
       <data key="v_name">07_18</data>
@@ -2733,6 +4289,10 @@
       <data key="v_y">0.935383</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">702-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n389">
       <data key="v_name">07_19</data>
@@ -2740,6 +4300,10 @@
       <data key="v_y">0.936923</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">703-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n390">
       <data key="v_name">07_2</data>
@@ -2747,6 +4311,10 @@
       <data key="v_y">0.155383</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.0120774</data>
+      <data key="v_spacename">SA1_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n391">
       <data key="v_name">07_20</data>
@@ -2754,6 +4322,10 @@
       <data key="v_y">0.889231</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">704-RHD</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">2</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n392">
       <data key="v_name">07_3</data>
@@ -2761,6 +4333,10 @@
       <data key="v_y">0.254615</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.0365963</data>
+      <data key="v_spacename">SA1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n393">
       <data key="v_name">07_4</data>
@@ -2768,6 +4344,10 @@
       <data key="v_y">0.350768</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.017461</data>
+      <data key="v_spacename">CORRIDOR_2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n394">
       <data key="v_name">07_5</data>
@@ -2775,6 +4355,10 @@
       <data key="v_y">0.506153</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.00418088</data>
+      <data key="v_spacename">CORRIDOR_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n395">
       <data key="v_name">07_6</data>
@@ -2782,6 +4366,10 @@
       <data key="v_y">0.667693</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.0154336</data>
+      <data key="v_spacename">CORRIDOR_3</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n396">
       <data key="v_name">07_7</data>
@@ -2789,6 +4377,10 @@
       <data key="v_y">0.756948</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.0521108</data>
+      <data key="v_spacename">SA2</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n397">
       <data key="v_name">07_8</data>
@@ -2796,6 +4388,10 @@
       <data key="v_y">0.840001</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0</data>
+      <data key="v_spacename">SA2_1</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <node id="n398">
       <data key="v_name">07_9</data>
@@ -2803,6 +4399,10 @@
       <data key="v_y">0.853847</data>
       <data key="v_z">7</data>
       <data key="v_btwn">0.0249737</data>
+      <data key="v_spacename">CORRIDOR_4</data>
+      <data key="v_capacity">0</data>
+      <data key="v_accesslevel">1</data>
+      <data key="v_owners">-</data>
     </node>
     <edge source="n0" target="n1">
       <data key="e_weight">1</data>
