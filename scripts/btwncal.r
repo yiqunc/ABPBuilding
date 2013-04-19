@@ -40,6 +40,9 @@ CONST_EDGE_WEIGHT_DEFAULT = 1.0
 CONST_EDGE_WEIGHT_HUGE = 1000.0
 # floor text height interval in 3D scene
 CONST_FLOOR_TEXT_HEIGHT_RATIO = 2/(length(floorNames)-1)
+# render colorramp size
+CONST_COLRAMP_SIZE = 5
+CONST_COLRAMP_2ENDS = c("white","red")
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Step 1: construct a multi-floor network based on individual floor plans
@@ -220,12 +223,27 @@ for(vname in V(gunion)$name){
   }
 }
 
-# use gunion_original for visualization test 
-V(gunion_original)[btwn>0.1]$color = "red"
+# use gunion_original for visualization test
+colorramp = colorRampPalette(CONST_COLRAMP_2ENDS)(CONST_COLRAMP_SIZE)
+vecBtwn = V(gunion_original)$btwn
+itvValue = (max(vecBtwn)-min(vecBtwn)) / (CONST_HEATCOL_NUM-1)
+V(gunion_original)$colorIdx = as.integer(V(gunion_original)$btwn / itvValue) + 1
+V(gunion_original)$color = colorramp[V(gunion_original)$colorIdx]
+
+#V(gunion_original)[btwn>0.1]$color = "red"
 V(gunion_original)$size = 3
 if(nrow(brokenVerticesDF) > 0){
   V(gunion_original)[as.character(brokenVerticesDF[,1])]$color = "black"
   V(gunion_original)[as.character(brokenVerticesDF[,1])]$size = 5
+}
+
+# get a middle color between to colors : colorRampPalette(c("#FFFFFF","#FF0000"))(3)[2]
+# the edge color is calculated based on its two vertices color
+edgeVerticePair = get.edges(gunion_original,E(gunion_original))
+for(i in 1:nrow(edgeVerticePair)){
+  sColor = V(gunion_original)[edgeVerticePair[i,1]]$color
+  eColor = V(gunion_original)[edgeVerticePair[i,2]]$color
+  E(gunion_original)[i]$color = colorRampPalette(c(sColor,eColor))(3)[2]
 }
 
 # have to set a default edge width value for all edges first 
@@ -253,5 +271,6 @@ for(i in 1:length(floorShortNames)){
 #while ((i <- 36*(proc.time()[3]-start)) < 3360) {
 #  rgl.viewpoint(i/20,i/30); 
 #}
+
 
 
