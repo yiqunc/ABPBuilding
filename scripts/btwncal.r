@@ -226,7 +226,7 @@ for(vname in V(gunion)$name){
 # use gunion_original for visualization test
 colorramp = colorRampPalette(CONST_COLRAMP_2ENDS)(CONST_COLRAMP_SIZE)
 vecBtwn = V(gunion_original)$btwn
-itvValue = (max(vecBtwn)-min(vecBtwn)) / (CONST_HEATCOL_NUM-1)
+itvValue = (max(vecBtwn)-min(vecBtwn)) / (CONST_COLRAMP_SIZE-1)
 V(gunion_original)$colorIdx = as.integer(V(gunion_original)$btwn / itvValue) + 1
 V(gunion_original)$color = colorramp[V(gunion_original)$colorIdx]
 
